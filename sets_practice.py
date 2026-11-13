@@ -122,6 +122,11 @@
 # student.update({"age":30,
 # "course":"fullstack"})
 # print(student["name"])
-# print(student)
-language = "JAVASCRIPT"
-print(language[4],language[-1],language[1:5])
+# # print(student)
+# language = "JAVASCRIPT"
+# print(language[4],language[-1],language[1:5])
+first_name = "Shifa"
+course = "Python"
+sent=first_name+" is learning "+course
+print(sent)
+print(sent*3)
