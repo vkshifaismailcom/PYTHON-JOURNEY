@@ -33,16 +33,31 @@
 # print(backend-frontend)
 # print(frontend^backend)
 # print(frontend,backend)
-python_students = {"Shifa", "Amina", "Sara", "Hana"}
+# python_students = {"Shifa", "Amina", "Sara", "Hana"}
 
-web_students = {"Shifa", "Sara"}
+# web_students = {"Shifa", "Sara"}
 
-data_students = {"Amina", "Hana"}
+# data_students = {"Amina", "Hana"}
 
-print(web_students.issubset(python_students))
-print(web_students.issuperset(python_students))
-print(web_students&data_students)
-print(web_students.isdisjoint(data_students))
-copies=python_students.copy()
-copies.add("zara")
-print(copies,python_students)
+# print(web_students.issubset(python_students))
+# print(web_students.issuperset(python_students))
+# print(web_students&data_students)
+# print(web_students.isdisjoint(data_students))
+# copies=python_students.copy()
+# copies.add("zara")
+# print(copies,python_students)
+morning_batch = {"Shifa", "Amina", "Sara", "Hana", "Zara"}
+
+evening_batch = {"Sara", "Hana", "Ali", "John", "Zara"}
+
+cancelled_students = {"John", "Amina"}
+registerd=evening_batch.union(morning_batch)
+active=registerd-cancelled_students
+print(morning_batch^evening_batch)
+print(morning_batch&evening_batch)
+print(morning_batch-evening_batch)
+print(evening_batch-morning_batch)
+print(active)
+print( "Shifa" in registerd )
+print("John"  in  active)
+print(len(active))
