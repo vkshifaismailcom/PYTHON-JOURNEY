@@ -1,2 +1,1 @@
-print("Hello, Python!")
-print("My Python journey begins!")
+products={"book","pen","eraser","sharpner","paper"}
