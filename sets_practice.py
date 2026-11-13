@@ -46,18 +46,28 @@
 # copies=python_students.copy()
 # copies.add("zara")
 # print(copies,python_students)
-morning_batch = {"Shifa", "Amina", "Sara", "Hana", "Zara"}
+# morning_batch = {"Shifa", "Amina", "Sara", "Hana", "Zara"}
 
-evening_batch = {"Sara", "Hana", "Ali", "John", "Zara"}
+# evening_batch = {"Sara", "Hana", "Ali", "John", "Zara"}
 
-cancelled_students = {"John", "Amina"}
-registerd=evening_batch.union(morning_batch)
-active=registerd-cancelled_students
-print(morning_batch^evening_batch)
-print(morning_batch&evening_batch)
-print(morning_batch-evening_batch)
-print(evening_batch-morning_batch)
-print(active)
-print( "Shifa" in registerd )
-print("John"  in  active)
-print(len(active))
+# cancelled_students = {"John", "Amina"}
+# registerd=evening_batch.union(morning_batch)
+# active=registerd-cancelled_students
+# print(morning_batch^evening_batch)
+# print(morning_batch&evening_batch)
+# print(morning_batch-evening_batch)
+# print(evening_batch-morning_batch)
+# print(active)
+# print( "Shifa" in registerd )
+# print("John"  in  active)
+# print(len(active))
+numbers = [10, 15, 20, 25, 30, 15, 40, 20, 50, 10, 60]
+unique=set(numbers)
+even={nums for nums in numbers if nums%2==0}
+square={sq*sq for sq in numbers}
+greater={num for num in numbers if num>25}
+print(unique)
+print(even)
+print(greater)
+print(square)
+print(len(unique))
