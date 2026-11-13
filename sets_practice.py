@@ -125,8 +125,13 @@
 # # print(student)
 # language = "JAVASCRIPT"
 # print(language[4],language[-1],language[1:5])
-first_name = "Shifa"
-course = "Python"
-sent=first_name+" is learning "+course
-print(sent)
-print(sent*3)
+# first_name = "Shifa"
+# course = "Python"
+# sent=first_name+" is learning "+course
+# print(sent)
+# print(sent*3)
+project = "SIVK SCULPT"
+print("SIVK" in project)
+print("sculpt" in project)
+print("MEMORA" not in project)
+print("V" not in project)
