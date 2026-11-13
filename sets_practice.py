@@ -135,10 +135,16 @@
 # print("sculpt" in project)
 # print("MEMORA" not in project)
 # print("V" not in project)
-sentence = "I love Python"
+# sentence = "I love Python"
 
-words = sentence.split()
-print(words)
+# words = sentence.split()
+# print(words)
 
-result = "-".join(words)
-print(result)
+# result = "-".join(words)
+# print(result)
+print("Shifa123".isalpha())
+print("2026".isdigit())
+print("Python123".isalnum())
+print("Python 123".isalnum())
+print("   ".isspace())
+print("Hello World".istitle())
