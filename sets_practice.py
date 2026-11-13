@@ -130,8 +130,15 @@
 # sent=first_name+" is learning "+course
 # print(sent)
 # print(sent*3)
-project = "SIVK SCULPT"
-print("SIVK" in project)
-print("sculpt" in project)
-print("MEMORA" not in project)
-print("V" not in project)
+# project = "SIVK SCULPT"
+# print("SIVK" in project)
+# print("sculpt" in project)
+# print("MEMORA" not in project)
+# print("V" not in project)
+sentence = "I love Python"
+
+words = sentence.split()
+print(words)
+
+result = "-".join(words)
+print(result)
