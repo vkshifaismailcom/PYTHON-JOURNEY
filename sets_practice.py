@@ -61,13 +61,45 @@
 # print( "Shifa" in registerd )
 # print("John"  in  active)
 # print(len(active))
-numbers = [10, 15, 20, 25, 30, 15, 40, 20, 50, 10, 60]
-unique=set(numbers)
-even={nums for nums in numbers if nums%2==0}
-square={sq*sq for sq in numbers}
-greater={num for num in numbers if num>25}
-print(unique)
-print(even)
-print(greater)
-print(square)
-print(len(unique))
+# numbers = [10, 15, 20, 25, 30, 15, 40, 20, 50, 10, 60]
+# unique=set(numbers)
+# even={nums for nums in numbers if nums%2==0}
+# square={sq**2 for sq in unique}
+# greater={num for num in numbers if num>25}
+# print(unique)
+# print(even)
+# print(greater)
+# print(square)
+# print(len(unique))
+# employees = ["Shifa", "Amina", "Sara", "Hana", "Shifa", "Ali", "John", "Sara"]
+
+# developers = {"Shifa", "Sara", "Ali", "John"}
+
+# designers = {"Amina", "Hana", "Sara"}
+
+# managers = {"John", "Amina"}
+# dd=developers|designers
+# unique=set(employees)
+# print(unique)
+# print(developers&designers)
+# print(developers-managers)
+# print(designers-developers)
+# print(unique-dd)
+# print(unique-managers)
+# print("Shifa" in developers)
+# print(designers.issubset(unique))
+# print(len(unique))
+students = ["Shifa", "Amina", "Sara", "Hana"]
+removed=students.pop(3)
+students.append("Ali")
+print(students)
+students.insert(1,"John")
+print(students)
+students.extend(["Zara","Maryam"])
+print(students)
+students.remove("Sara")
+print(students)
+print(removed)
+print(len(students))
+for stu in students:
+    print(stu)
