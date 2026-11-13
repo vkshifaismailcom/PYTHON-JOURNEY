@@ -24,12 +24,25 @@
 # seven={ product for product in products if len(product)<7 }
 # print(seven)
 # print(products,six,seven)
-frontend = {"HTML", "CSS", "JavaScript", "React", "Bootstrap"}
+# frontend = {"HTML", "CSS", "JavaScript", "React", "Bootstrap"}
 
-backend = {"Python", "JavaScript", "Node.js", "React", "Django"}
-print(frontend|backend)
-print (frontend.intersection(backend))
-print(frontend-backend)
-print(backend-frontend)
-print(frontend^backend)
-print(frontend,backend)
+# backend = {"Python", "JavaScript", "Node.js", "React", "Django"}
+# print(frontend|backend)
+# print (frontend.intersection(backend))
+# print(frontend-backend)
+# print(backend-frontend)
+# print(frontend^backend)
+# print(frontend,backend)
+python_students = {"Shifa", "Amina", "Sara", "Hana"}
+
+web_students = {"Shifa", "Sara"}
+
+data_students = {"Amina", "Hana"}
+
+print(web_students.issubset(python_students))
+print(web_students.issuperset(python_students))
+print(web_students&data_students)
+print(web_students.isdisjoint(data_students))
+copies=python_students.copy()
+copies.add("zara")
+print(copies,python_students)
