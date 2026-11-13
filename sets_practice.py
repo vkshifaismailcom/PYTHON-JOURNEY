@@ -103,14 +103,23 @@
 # print(len(students))
 # for stu in students:
 #     print(stu)
-languages = ("Python", "Java", "JavaScript", "Python", "React")
-hello=list(languages)
-print(languages[1])
-print(languages[3:])
-print(languages.count("Python"))
-print(languages.index("JavaScript"))
-print(hello)
-hello.append("django")
-print(hello)
-print(tuple(hello))
-
+# languages = ("Python", "Java", "JavaScript", "Python", "React")
+# hello=list(languages)
+# print(languages[1])
+# print(languages[3:])
+# print(languages.count("Python"))
+# print(languages.index("JavaScript"))
+# print(hello)
+# hello.append("django")
+# print(hello)
+# print(tuple(hello))
+# hello=set()
+# print(type(hello))
+student = {
+    "name": "Shifa",
+    "age": 18
+}
+student.update({"age":30,
+"course":"fullstack"})
+print(student["name"])
+print(student)
