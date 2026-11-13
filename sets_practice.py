@@ -115,11 +115,13 @@
 # print(tuple(hello))
 # hello=set()
 # print(type(hello))
-student = {
-    "name": "Shifa",
-    "age": 18
-}
-student.update({"age":30,
-"course":"fullstack"})
-print(student["name"])
-print(student)
+# student = {
+#     "name": "Shifa",
+#     "age": 18
+# }
+# student.update({"age":30,
+# "course":"fullstack"})
+# print(student["name"])
+# print(student)
+language = "JAVASCRIPT"
+print(language[4],language[-1],language[1:5])
