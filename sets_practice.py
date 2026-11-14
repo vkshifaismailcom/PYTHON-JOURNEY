@@ -243,11 +243,19 @@
 # print(len(review))
 # print(review.upper())
 # print(review.lower())
-def calculate_area():
-    length=10
-    width=5
-    return length*width
+# def calculate_area():
+#     length=10
+#     width=5
+#     return length*width
 
 
-total=calculate_area()
-print(total)
+# total=calculate_area()
+# print(total)
+def check_age():
+    age = 18
+    if age>=18:
+        print("Eligible to vote")
+    else:
+        print("Not eligible to vote")
+
+check_age()        
