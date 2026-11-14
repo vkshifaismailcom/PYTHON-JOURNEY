@@ -347,3 +347,9 @@
 #         print(key,value)
 # register_student("shifa",18,"drawing","sketching","coloring",city="kannur",university="jain university",country="india")
 # register_student("amina",18,"drawing","sketching","coloring",course="bca", city="kannur",university="jain university",country="india")
+def calculate_sum(num):
+    if num==0:
+        return 0
+    return num+calculate_sum(num-1)   
+result=calculate_sum(5)
+print(result)
