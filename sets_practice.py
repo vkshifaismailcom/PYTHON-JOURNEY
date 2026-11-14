@@ -331,11 +331,19 @@
 #     department="Development",
 #     company="SIVK Technologies"
 # )
-def register_employee(name,*skills,**details):
-    print("name : ",name)
-    for skill in skills:
-        print(skill)
-    for key,value in details.items():
+# def register_employee(name,*skills,**details):
+#     print("name : ",name)
+#     for skill in skills:
+#         print(skill)
+#     for key,value in details.items():
+#         print(key,value)
+# register_employee("shifa","python","javascript","react","node.js",age=18,department="DEVElopment",role="fullstack",company="sivk technologies")
+def register_student(name,age,*hobbies,course="BCA",**info):
+    print(name,'\n',age)
+    print(course)
+    for hobbie in hobbies:
+        print(hobbie)
+    for key,value in info.items():
         print(key,value)
-register_employee("shifa","python","javascript","react","node.js",age=18,department="DEVElopment",role="fullstack",company="sivk technologies")
+register_student("shifa",18,"drawing","sketching","coloring",city="kannur",university="jain university",country="india")
 
