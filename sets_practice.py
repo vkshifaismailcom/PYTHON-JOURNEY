@@ -287,11 +287,17 @@
 #     age=18,
 #     course="BCA",
 #     city="Kozhikode")
-def student_details(name,age,course="bca"):
-    print("name : ",name)
-    print("age : ",age)
-    print("course : ",course)
-student_details("shifa",18)
-student_details(age=18,name="shifa")
-student_details("amina",20)
-
+# def student_details(name,age,course="bca"):
+#     print("name : ",name)
+#     print("age : ",age)
+#     print("course : ",course)
+# student_details("shifa",18)
+# student_details(age=18,name="shifa")
+# student_details("amina",20)
+def calculate_total(*prices):
+    total=0
+    for price in prices:
+        total+=price
+    return total
+result=calculate_total(250,450,300,500)
+print(result)
