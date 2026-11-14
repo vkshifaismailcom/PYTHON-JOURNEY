@@ -165,22 +165,43 @@
 # print(student.values())
 # print(student)
 
-inventory = {
-    "laptop": 10,
-    "mouse": 25,
-    "keyboard": 15,
-    "monitor": 8
+# inventory = {
+#     "laptop": 10,
+#     "mouse": 25,
+#     "keyboard": 15,
+#     "monitor": 8
+# }
+# print(inventory["laptop"])
+# mouse=inventory["mouse"]=30
+# head=inventory["headphones"]=12
+# inventory.pop("monitor")
+# key=inventory.keys()
+# value=inventory.values()
+# print(key)
+# print(value)
+# for key,value in inventory.items():
+#     print(key,":",value)
+# print()
+# print(len(inventory))
+# print("keyboard" in inventory)
+students = {
+    "student1": {"name": "Shifa", "marks": 85},
+    "student2": {"name": "Amina", "marks": 92},
+    "student3": {"name": "Sara", "marks": 76},
+    "student4": {"name": "Hana", "marks": 95},
+    "student5": {"name": "Ali", "marks": 60}
 }
-print(inventory["laptop"])
-mouse=inventory["mouse"]=30
-head=inventory["headphones"]=12
-inventory.pop("monitor")
-key=inventory.keys()
-value=inventory.values()
-print(key)
-print(value)
-for key,value in inventory.items():
-    print(key,":",value)
-print()
-print(len(inventory))
-print("keyboard" in inventory)
+print(students["student1"]["name"])
+print(students["student2"]["marks"])
+sara=students["student3"]["marks"]=80
+john=students.update({"student6":{"name": "john", "marks": 88}})
+for key, value in students.items():
+    print("Name:", value["name"])
+    print("Marks:", value["marks"])
+eighty={key:value for key,value in students.items() if value["marks"]>=80}
+print(eighty)
+beloweigty={key:value for key,value in students.items() if value["marks"]<80}
+print(beloweigty)
+print(len(students))
+high=max(value["marks"] for value in students.values())
+print(high)
