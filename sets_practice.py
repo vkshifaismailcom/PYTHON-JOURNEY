@@ -294,10 +294,17 @@
 # student_details("shifa",18)
 # student_details(age=18,name="shifa")
 # student_details("amina",20)
-def calculate_total(*prices):
-    total=0
-    for price in prices:
-        total+=price
-    return total
-result=calculate_total(250,450,300,500)
-print(result)
+# def calculate_total(*prices):
+#     total=0
+#     for price in prices:
+#         total+=price
+#     return total
+# result=calculate_total(250,450,300,500)
+# print(result)
+def employee_details(**details):
+    for key,value in details.items():
+        print(key ," : ",value)
+        
+employee_details(name="shifa",age=18,department="development",role="python developer",company="sivk technologies")
+    
+
