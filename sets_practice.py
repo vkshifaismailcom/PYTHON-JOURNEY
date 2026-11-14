@@ -271,11 +271,27 @@
 #     return final
 # run=calculate_discount(2000,10)
 # print(run)
-def student_details():
-    print("Name: Shifa")
-    print("Age: 18")
-    print("Course: BCA")
-    print("University: Jain University")
+# def student_details():
+#     print("Name: Shifa")
+#     print("Age: 18")
+#     print("Course: BCA")
+#     print("University: Jain University")
 
-student_details()
-student_details()
+# student_details()
+# student_details()
+
+# def student(**name):
+    
+#         print(name)
+# student(    name="Shifa",
+#     age=18,
+#     course="BCA",
+#     city="Kozhikode")
+def student_details(name,age,course="bca"):
+    print("name : ",name)
+    print("age : ",age)
+    print("course : ",course)
+student_details("shifa",18)
+student_details(age=18,name="shifa")
+student_details("amina",20)
+
