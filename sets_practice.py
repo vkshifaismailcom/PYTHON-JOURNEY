@@ -205,16 +205,30 @@
 # print(len(students))
 # high=max(value["marks"] for value in students.values())
 # print(high)
-name = "SIVK SCULPT"
-one=name[:4:]
-two=name[5::]
-print(name[0])
-print(name[-1])
-print(one)
-print(two)
-print(name[::-1])
-equal=one+" "+two
-print(equal)
-print(equal * 3)
-print("SIVK" in name)
-print("MEMMORA" not in name)
+# name = "SIVK SCULPT"
+# one=name[:4:]
+# two=name[5::]
+# print(name[0])
+# print(name[-1])
+# print(one)
+# print(two)
+# print(name[::-1])
+# equal=one+" "+two
+# print(equal)
+# print(equal * 3)
+# print("SIVK" in name)
+# print("MEMORA" not in name)
+description = "   sivk sculpt creates beautiful miniature sculptures   "
+space=description.strip()
+print(space)
+print(description.lower())
+print(description.upper())
+print(description.capitalize())
+print(description.title())
+print(description.replace("beautiful","elegant"))
+sliced=description.split()
+print(sliced)
+print("-".join(sliced))
+print(description.count("sculpt"))
+print(space.startswith("sivk"))
+print(space.endswith("sculptures"))
