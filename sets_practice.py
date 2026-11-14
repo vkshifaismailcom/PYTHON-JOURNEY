@@ -265,9 +265,17 @@
 # print(welcome_user("shifa"))
 # print(welcome_user("sivk"))
 # print(welcome_user("chippa"))
-def calculate_discount(price,discount_percentage):
-    discount=price*discount_percentage/100
-    final=price-discount
-    return final
-run=calculate_discount(2000,10)
-print(run)
+# def calculate_discount(price,discount_percentage):
+#     discount=price*discount_percentage/100
+#     final=price-discount
+#     return final
+# run=calculate_discount(2000,10)
+# print(run)
+def student_details():
+    print("Name: Shifa")
+    print("Age: 18")
+    print("Course: BCA")
+    print("University: Jain University")
+
+student_details()
+student_details()
