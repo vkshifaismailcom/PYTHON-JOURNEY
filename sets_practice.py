@@ -151,16 +151,36 @@
 
 #DAY THREE:-
 
-students={"name":"shifa","age":18,"course":"bca","university":"jain university"}
-student=students.copy()
-print(student["name"])
-print(student["age"])
-aged=student["age"]=19
-print(aged)
-city=student["city"]="kozhikkode"
-print(city)
-lang=student["skills"]="python","js","node"
-print(lang)
-print(student.keys())
-print(student.values())
-print(student)
+# students={"name":"shifa","age":18,"course":"bca","university":"jain university"}
+# student=students.copy()
+# print(student["name"])
+# print(student["age"])
+# aged=student["age"]=19
+# print(aged)
+# city=student["city"]="kozhikkode"
+# print(city)
+# lang=student["skills"]="python","js","node"
+# print(lang)
+# print(student.keys())
+# print(student.values())
+# print(student)
+
+inventory = {
+    "laptop": 10,
+    "mouse": 25,
+    "keyboard": 15,
+    "monitor": 8
+}
+print(inventory["laptop"])
+mouse=inventory["mouse"]=30
+head=inventory["headphones"]=12
+inventory.pop("monitor")
+key=inventory.keys()
+value=inventory.values()
+print(key)
+print(value)
+for key,value in inventory.items():
+    print(key,":",value)
+print()
+print(len(inventory))
+print("keyboard" in inventory)
