@@ -243,7 +243,11 @@
 # print(len(review))
 # print(review.upper())
 # print(review.lower())
-def student_details():
-    print("shifaismailvk",18,"bca","jain",)
+def calculate_area():
+    length=10
+    width=5
+    return length*width
 
-student_details()
+
+total=calculate_area()
+print(total)
