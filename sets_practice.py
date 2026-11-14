@@ -142,9 +142,25 @@
 
 # result = "-".join(words)
 # print(result)
-print("Shifa123".isalpha())
-print("2026".isdigit())
-print("Python123".isalnum())
-print("Python 123".isalnum())
-print("   ".isspace())
-print("Hello World".istitle())
+# print("Shifa123".isalpha())
+# print("2026".isdigit())
+# print("Python123".isalnum())
+# print("Python 123".isalnum())
+# print("   ".isspace())
+# print("Hello World".istitle())
+
+#DAY THREE:-
+
+students={"name":"shifa","age":18,"course":"bca","university":"jain university"}
+student=students.copy()
+print(student["name"])
+print(student["age"])
+aged=student["age"]=19
+print(aged)
+city=student["city"]="kozhikkode"
+print(city)
+lang=student["skills"]="python","js","node"
+print(lang)
+print(student.keys())
+print(student.values())
+print(student)
