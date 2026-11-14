@@ -300,11 +300,42 @@
 #         total+=price
 #     return total
 # result=calculate_total(250,450,300,500)
-# print(result)
-def employee_details(**details):
-    for key,value in details.items():
-        print(key ," : ",value)
+# # print(result)
+# def employee_details(**details):
+#     for key,value in details.items():
+#         print(key ," : ",value)
         
-employee_details(name="shifa",age=18,department="development",role="python developer",company="sivk technologies")
-    
+# employee_details(name="shifa",age=18,department="development",role="python developer",company="sivk technologies")
+# def order_details(name,*price):
+#     print("name : ",name)
+#     print("price :",price )
+# order_details("shifa",10,20,30)
+# def employee_details(name, *skills, **details):
+#     print("Name:", name)
+
+#     print("Skills:")
+#     for skill in skills:
+#         print(skill)
+
+#     print("Additional details:")
+#     for key, value in details.items():
+#         print(key, ":", value)
+
+
+# employee_details(
+#     "Shifa",
+#     "Python",
+#     "JavaScript",
+#     "React",
+#     age=18,
+#     department="Development",
+#     company="SIVK Technologies"
+# )
+def register_employee(name,*skills,**details):
+    print("name : ",name)
+    for skill in skills:
+        print(skill)
+    for key,value in details.items():
+        print(key,value)
+register_employee("shifa","python","javascript","react","node.js",age=18,department="DEVElopment",role="fullstack",company="sivk technologies")
 
