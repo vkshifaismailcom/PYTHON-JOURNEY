@@ -259,9 +259,15 @@
 #         print("Not eligible to vote")
 
 # check_age()        
-def welcome_user(name):
-    return "welcome "+ name 
+# def welcome_user(name):
+#     return "welcome "+ name 
 
-print(welcome_user("shifa"))
-print(welcome_user("sivk"))
-print(welcome_user("chippa"))
+# print(welcome_user("shifa"))
+# print(welcome_user("sivk"))
+# print(welcome_user("chippa"))
+def calculate_discount(price,discount_percentage):
+    discount=price*discount_percentage/100
+    final=price-discount
+    return final
+run=calculate_discount(2000,10)
+print(run)
