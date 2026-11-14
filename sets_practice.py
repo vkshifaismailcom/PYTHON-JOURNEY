@@ -251,11 +251,17 @@
 
 # total=calculate_area()
 # print(total)
-def check_age():
-    age = 18
-    if age>=18:
-        print("Eligible to vote")
-    else:
-        print("Not eligible to vote")
+# def check_age():
+#     age = 18
+#     if age>=18:
+#         print("Eligible to vote")
+#     else:
+#         print("Not eligible to vote")
 
-check_age()        
+# check_age()        
+def welcome_user(name):
+    return "welcome "+ name 
+
+print(welcome_user("shifa"))
+print(welcome_user("sivk"))
+print(welcome_user("chippa"))
