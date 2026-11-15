@@ -489,6 +489,27 @@
 # child1.house()
 # child1.car()
 # child1.bike()
+# class Employee:
+#     compony="google"
+#     def __init__(self,name,salary):
+#         self.name=name
+#         self.salary=salary
+#     def display(self):
+#         print("name :",self.name)
+#         print("salary :",self.salary)
+# employee1=Employee("sivk",18)
+# employee2=Employee("pp",20)
+# employee1.display()
+# employee2.display()
+# print(employee1.compony)
+# print(employee2.compony)
+# class Student:
+#     def display(self):
+#         message = "Hello, Student!"
+#         print(message)
+
+# student1 = Student()
+# student1.display()
 class Employee:
     compony="google"
     def __init__(self,name,salary):
@@ -497,6 +518,8 @@ class Employee:
     def display(self):
         print("name :",self.name)
         print("salary :",self.salary)
+        message = "Employee Details"
+        print(message)
 employee1=Employee("sivk",18)
 employee2=Employee("pp",20)
 employee1.display()
