@@ -380,5 +380,7 @@
 #         return n
 #     return n+number(n-1)
 # print(number(5))
-cube=lambda n:n**3
-print(cube(5))
+# cube=lambda n:n**3
+# print(cube(5))
+multiply=lambda n,m:n*m
+print(multiply(5,3))
