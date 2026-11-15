@@ -360,6 +360,8 @@
 # heey=reverse_string("python")
 # print(heey)
 def factorial(num):
+    if num<0:
+        return "negative are not allowed"
     if num==0:
         return 1
     return num*factorial(num-1)
