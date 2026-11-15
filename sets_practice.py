@@ -353,9 +353,14 @@
 #     return num+calculate_sum(num-1)   
 # result=calculate_sum(5)
 # print(result)
-def reverse_string(name):
-    if name=="":
-        return""
-    return reverse_string(name[1:])+name[0]
-heey=reverse_string("python")
-print(heey)
+# def reverse_string(name):
+#     if name=="":
+#         return""
+#     return reverse_string(name[1:])+name[0]
+# heey=reverse_string("python")
+# print(heey)
+def factorial(num):
+    if num==0:
+        return 1
+    return num*factorial(num-1)
+print(factorial(5))
