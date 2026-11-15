@@ -458,16 +458,34 @@
 # manger1.started()                                                           |
 # manger1.dispaly()                                                           |
 #-----------------------------------------------------------------------------
-class father():
-    def height(self):
-        print("Father has good height")
-class mother():
-    def intelligence(self):
-        print("Mother is intelligent")
-class student(father,mother):
-    def study(self):
-        print("Student is studying")
-child1=student()
-child1.height()
-child1.intelligence()
-child1.study()
+# class father():
+#     def height(self):
+#         print("Father has good height")
+# class mother():
+#     def intelligence(self):
+#         print("Mother is intelligent")
+# class student(father,mother):
+#     def study(self):
+#         print("Student is studying")
+# child1=student()
+# child1.height()
+# child1.intelligence()
+# child1.study()
+class Grandfather:
+    def house(self):
+        print("Grandfather owns a house")
+
+class Father(Grandfather):
+    def car(self):
+        print("Father owns a car")
+
+class Child(Father):
+    def bike(self):
+        print("Child owns a bike")
+
+
+child1 = Child()
+
+child1.house()
+child1.car()
+child1.bike()
