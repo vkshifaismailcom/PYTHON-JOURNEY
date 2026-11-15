@@ -384,6 +384,9 @@
 # print(cube(5))
 # multiply=lambda n,m:n*m
 # print(multiply(5,3))
-is_positive = lambda n: True if n > 0 else False
+# is_positive = lambda n: True if n > 0 else False
 
-print(is_positive(-1))
+# print(is_positive(-1))
+numbers = [2, 4, 6, 8, 10]
+five=map(lambda n:n*5,numbers)
+print(list(five))
