@@ -359,10 +359,19 @@
 #     return reverse_string(name[1:])+name[0]
 # heey=reverse_string("python")
 # print(heey)
-def factorial(num):
-    if num<0:
-        return "negative are not allowed"
-    if num==0:
-        return 1
-    return num*factorial(num-1)
-print(factorial(5))
+# def factorial(num):
+#     if num<0:
+#         return "negative are not allowed"
+#     if num==0:
+#         return 1
+#     return num*factorial(num-1)
+# print(factorial(5))
+# def fibonacci(n):
+#     if n<0:
+#         return("nega tive are not allowed")
+#     if n==0:
+#         return 0
+#     if n==1:
+#         return 1
+#     return fibonacci(n-1)+fibonacci(n-2)
+# print(fibonacci(5))
