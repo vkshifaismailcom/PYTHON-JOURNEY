@@ -400,8 +400,12 @@
 # ]
 # sorting=sorted(employees,key=lambda employee:employee["salary"],reverse=True)
 # print(sorting)
-import math,random
-num=int(input("enter a number: "))
-print(math.sqrt(num))
-print(random.randint(1,100))
-print(math.factorial(num))
+# import math,random
+# num=int(input("enter a number: "))
+# print(math.sqrt(num))
+# print(random.randint(1,100))
+# print(math.factorial(num))
+import student
+print(student.student_name())
+print(student.student_age())
+print(student.student_course())
