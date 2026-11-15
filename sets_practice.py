@@ -410,16 +410,28 @@
 # print(student.student_age())
 # print(student.student_course())
 
-try: 
-    num=int(input("enter a number: "))
-    nums=int(input("enter a number: "))
-    result=num/nums
+# try: 
+#     num=int(input("enter a number: "))
+#     nums=int(input("enter a number: "))
+#     result=num/nums
     
-except ZeroDivisionError:
-    print("cannot divided by zero")
-except ValueError:
-    print("enter an intiger")
-else:
-     print("Result:", result)
-finally:
-    print("Program completed")
+# except ZeroDivisionError:
+#     print("cannot divided by zero")
+# except ValueError:
+#     print("enter an intiger")
+# else:
+#      print("Result:", result)
+# finally:
+#     print("Program completed")
+class vehicle:
+    def start(self):
+        print("vehicle started")
+    def stop(self):
+        print("vehicle stopped")
+class car(vehicle):
+    def drive(self):
+        print("car is driving")
+car1=car()
+car1.start()
+car1.stop()
+car1.drive()
