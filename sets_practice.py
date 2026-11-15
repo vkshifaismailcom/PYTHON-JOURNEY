@@ -357,8 +357,8 @@
 #     if name=="":
 #         return""
 #     return reverse_string(name[1:])+name[0]
-# heey=reverse_string("python")
-# print(heey)
+# print(reverse_string("python"))
+
 # def factorial(num):
 #     if num<0:
 #         return "negative are not allowed"
@@ -375,8 +375,10 @@
 #         return 1
 #     return fibonacci(n-1)+fibonacci(n-2)
 # print(fibonacci(5))
-def number(n):
-    if n==0:
-        return n
-    return n+number(n-1)
-print(number(5))
+# def number(n):
+#     if n==0:
+#         return n
+#     return n+number(n-1)
+# print(number(5))
+cube=lambda n:n**3
+print(cube(5))
