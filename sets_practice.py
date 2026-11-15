@@ -423,15 +423,37 @@
 #      print("Result:", result)
 # finally:
 #     print("Program completed")
-class vehicle:
-    def start(self):
-        print("vehicle started")
-    def stop(self):
-        print("vehicle stopped")
-class car(vehicle):
-    def drive(self):
-        print("car is driving")
-car1=car()
-car1.start()
-car1.stop()
-car1.drive()
+#day 55555555
+
+# class vehicle:
+#     def start(self):
+#         print("vehicle started")
+#     def stop(self):
+#         print("vehicle stopped")
+# class car(vehicle):
+#     def drive(self):
+#         print("car is driving")
+# car1=car()
+# car1.start()
+# car1.stop()
+# car1.drive()
+class employee():
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+    def dispaly(self):
+        print(self.name, "here you go")
+        print(self.salary, " got it")
+class Manager(employee):
+    def __init__(self, name, salary,department):
+        self.department=department
+        super().__init__(name, salary)
+    def started(self):
+        print("name :", self.name)
+        print("salary :",self.salary )
+        print("department :",self.department)
+manger1=Manager("SIVK",1000000000000,"CEO")
+manger1.started()
+manger1.dispaly()
+        
+        
