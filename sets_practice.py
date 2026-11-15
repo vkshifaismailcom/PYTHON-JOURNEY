@@ -393,10 +393,15 @@
 # numbers = [10, 15, 20, 25, 30, 35, 40]
 # twenty5=filter(lambda x: x>25,numbers)
 # print(list(twenty5))
-employees = [
-    {"name": "Shifa", "salary": 25000},
-    {"name": "Amina", "salary": 40000},
-    {"name": "Sara", "salary": 30000}
-]
-sorting=sorted(employees,key=lambda employee:employee["salary"],reverse=True)
-print(sorting)
+# employees = [
+#     {"name": "Shifa", "salary": 25000},
+#     {"name": "Amina", "salary": 40000},
+#     {"name": "Sara", "salary": 30000}
+# ]
+# sorting=sorted(employees,key=lambda employee:employee["salary"],reverse=True)
+# print(sorting)
+import math,random
+num=int(input("enter a number: "))
+print(math.sqrt(num))
+print(random.randint(1,100))
+print(math.factorial(num))
