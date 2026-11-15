@@ -405,7 +405,21 @@
 # print(math.sqrt(num))
 # print(random.randint(1,100))
 # print(math.factorial(num))
-import student
-print(student.student_name())
-print(student.student_age())
-print(student.student_course())
+# import student
+# print(student.student_name())
+# print(student.student_age())
+# print(student.student_course())
+
+try: 
+    num=int(input("enter a number: "))
+    nums=int(input("enter a number: "))
+    result=num/nums
+    
+except ZeroDivisionError:
+    print("cannot divided by zero")
+except ValueError:
+    print("enter an intiger")
+else:
+     print("Result:", result)
+finally:
+    print("Program completed")
