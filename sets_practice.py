@@ -471,21 +471,35 @@
 # child1.height()
 # child1.intelligence()
 # child1.study()
-class Grandfather:
-    def house(self):
-        print("Grandfather owns a house")
+# class Grandfather:
+#     def house(self):
+#         print("Grandfather owns a house")
 
-class Father(Grandfather):
-    def car(self):
-        print("Father owns a car")
+# class Father(Grandfather):
+#     def car(self):
+#         print("Father owns a car")
 
-class Child(Father):
-    def bike(self):
-        print("Child owns a bike")
+# class Child(Father):
+#     def bike(self):
+#         print("Child owns a bike")
 
 
-child1 = Child()
+# child1 = Child()
 
-child1.house()
-child1.car()
-child1.bike()
+# child1.house()
+# child1.car()
+# child1.bike()
+class Employee:
+    compony="google"
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+    def display(self):
+        print("name :",self.name)
+        print("salary :",self.salary)
+employee1=Employee("sivk",18)
+employee2=Employee("pp",20)
+employee1.display()
+employee2.display()
+print(employee1.compony)
+print(employee2.compony)
