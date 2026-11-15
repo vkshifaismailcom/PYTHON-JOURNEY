@@ -437,23 +437,37 @@
 # car1.start()
 # car1.stop()
 # car1.drive()
-class employee():
-    def __init__(self,name,salary):
-        self.name=name
-        self.salary=salary
-    def dispaly(self):
-        print(self.name, "here you go")
-        print(self.salary, " got it")
-class Manager(employee):
-    def __init__(self, name, salary,department):
-        self.department=department
-        super().__init__(name, salary)
-    def started(self):
-        print("name :", self.name)
-        print("salary :",self.salary )
-        print("department :",self.department)
-manger1=Manager("SIVK",1000000000000,"CEO")
-manger1.started()
-manger1.dispaly()
-        
-        
+#
+#-----------------------------------------------------------------------------
+# class employee():                                                           |
+#     def __init__(self,name,salary):                                         |
+#         self.name=name                                                      |
+#         self.salary=salary                                                  |
+#     def dispaly(self):                                                      |
+#         print(self.name, "here you go")                                     |
+#         print(self.salary, " got it")                                       |
+# class Manager(employee):                                                    |
+#     def __init__(self, name, salary,department):                            |
+#         self.department=department                                          |
+#         super().__init__(name, salary)                                      |
+#     def started(self):                                                      |
+#         print("name :", self.name)                                          |
+#         print("salary :",self.salary )                                      |
+#         print("department :",self.department)                               |
+# manger1=Manager("SIVK",1000000000000,"CEO")                                 |
+# manger1.started()                                                           |
+# manger1.dispaly()                                                           |
+#-----------------------------------------------------------------------------
+class father():
+    def height(self):
+        print("Father has good height")
+class mother():
+    def intelligence(self):
+        print("Mother is intelligent")
+class student(father,mother):
+    def study(self):
+        print("Student is studying")
+child1=student()
+child1.height()
+child1.intelligence()
+child1.study()
