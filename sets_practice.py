@@ -608,22 +608,46 @@
 # student1.total_marks(80,90)
 # student1.total_marks(80, 90, 85)
 # student1.total_marks(80, 90, 85, 95)
-from abc import ABC,abstractmethod
-class Employee(ABC):
-    @abstractmethod
-    def work(self):
-        pass
-    def company(self):
-        print("Working at Google")
-class Developer(Employee):
-    def work(self):
-        print("Developer is writing code")
-class Manager(Employee):
-    def work(self):
-        print("Manager is managing the team")
-developer1=Developer()
-manager1=Manager()
-developer1.work()
-developer1.company()
-manager1.work()
-manager1.company()
+# from abc import ABC,abstractmethod
+# class Employee(ABC):
+#     @abstractmethod
+#     def work(self):
+#         pass
+#     def company(self):
+#         print("Working at Google")
+# class Developer(Employee):
+#     def work(self):
+#         print("Developer is writing code")
+# class Manager(Employee):
+#     def work(self):
+#         print("Manager is managing the team")
+# developer1=Developer()
+# manager1=Manager()
+# developer1.work()
+# developer1.company()
+# manager1.work()
+# manager1.company()
+# class Employee:
+
+#     def __init__(self):
+#         self.__salary = 50000
+
+#     def display(self):
+#         print(self.__salary)
+
+
+# emp1 = Employee()
+
+# print(emp1._Employee__salary)  # Outside the class
+# def set_balance(self, amount):
+#     self.__balance = amount
+class BankAccount:
+    def __init__(self):
+        self.__balance=10000
+    def get_balance(self):
+        return self.__balance
+    def set_balance(self,amount):
+        self.__balance=amount
+account1=BankAccount()
+account1.set_balance(15000)
+print(account1.get_balance())
