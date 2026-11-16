@@ -601,10 +601,29 @@
 # calculator1=calculator()
 # calculator1.multiply(5,10)
 # calculator1.multiply(5,10,5)
-class student:
-    def total_marks(self,*marks):
-        print(sum(marks))
-student1=student()
-student1.total_marks(80,90)
-student1.total_marks(80, 90, 85)
-student1.total_marks(80, 90, 85, 95)
+# class student:
+#     def total_marks(self,*marks):
+#         print(sum(marks))
+# student1=student()
+# student1.total_marks(80,90)
+# student1.total_marks(80, 90, 85)
+# student1.total_marks(80, 90, 85, 95)
+from abc import ABC,abstractmethod
+class Employee(ABC):
+    @abstractmethod
+    def work(self):
+        pass
+    def company(self):
+        print("Working at Google")
+class Developer(Employee):
+    def work(self):
+        print("Developer is writing code")
+class Manager(Employee):
+    def work(self):
+        print("Manager is managing the team")
+developer1=Developer()
+manager1=Manager()
+developer1.work()
+developer1.company()
+manager1.work()
+manager1.company()
