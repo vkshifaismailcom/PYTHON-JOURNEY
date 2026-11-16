@@ -553,13 +553,21 @@
 # here2.display()
 # print(here1.compony)
 # print(here2.compony)
-class calculator:
-    @staticmethod
-    def add(a,b):
-        print(a+b)
-    @staticmethod
-    def multiply(a,b):
-        print(a*b)
-calculator1=calculator()
-calculator1.add(5,5)
-calculator1.multiply(5,5)
+# class calculator:
+#     @staticmethod
+#     def add(a,b):
+#         print(a+b)                                               
+#     @staticmethod
+#     def multiply(a,b):
+#         print(a*b)
+# calculator1=calculator()
+# calculator1.add(5,5)
+# calculator1.multiply(5,5) 
+class school:
+    def introduce(self):
+        print("i am a school student")
+class collagestudent(school):
+    def introduce(self):
+        print("i am a collage student")
+collagestudent1=collagestudent()
+collagestudent1.introduce()
