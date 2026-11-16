@@ -563,11 +563,23 @@
 # calculator1=calculator()
 # calculator1.add(5,5)
 # calculator1.multiply(5,5) 
-class school:
-    def introduce(self):
-        print("i am a school student")
-class collagestudent(school):
-    def introduce(self):
-        print("i am a collage student")
-collagestudent1=collagestudent()
-collagestudent1.introduce()
+# class school:
+#     def introduce(self):
+#         print("i am a school student")
+# class collagestudent(school):
+#     def introduce(self):
+#         print("i am a collage student")
+# collagestudent1=collagestudent()
+# collagestudent1.introduce()
+class Parent:
+    def display(self):
+        print("Parent method")
+
+class Child(Parent):
+    def display(self):
+        print("Child method")
+        # What should we write here to call the parent method?
+        super().display()
+
+obj = Child()
+obj.display()
