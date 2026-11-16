@@ -510,19 +510,30 @@
 
 # student1 = Student()
 # student1.display()
-class Employee:
-    compony="google"
-    def __init__(self,name,salary):
-        self.name=name
-        self.salary=salary
-    def display(self):
-        print("name :",self.name)
-        print("salary :",self.salary)
-        message = "Employee Details"
-        print(message)
-employee1=Employee("sivk",18)
-employee2=Employee("pp",20)
-employee1.display()
-employee2.display()
-print(employee1.compony)
-print(employee2.compony)
+# class Employee:
+#     compony="google"
+#     def __init__(self,name,salary):
+#         self.name=name
+#         self.salary=salary
+#     def display(self):
+#         print("name :",self.name)
+#         print("salary :",self.salary)
+#         message = "Employee Details"
+#         print(message)
+# employee1=Employee("sivk",18)
+# employee2=Employee("pp",20)
+# employee1.display()
+# employee2.display()
+# print(employee1.compony)
+# print(employee2.compony)
+class mobile:
+    def __init__(self,brand,price):
+        self.price=price
+        self.brand=brand
+    def display_details(self):
+        print("brand : ",self.brand)
+        print("price : ",self.price)
+mobile1=mobile("sivk",10000000000000)
+mobile2=mobile("iphone",1000)
+mobile1.display_details()
+mobile2.display_details()
