@@ -526,14 +526,30 @@
 # employee2.display()
 # print(employee1.compony)
 # print(employee2.compony)
-class mobile:
-    def __init__(self,brand,price):
-        self.price=price
-        self.brand=brand
-    def display_details(self):
-        print("brand : ",self.brand)
-        print("price : ",self.price)
-mobile1=mobile("sivk",10000000000000)
-mobile2=mobile("iphone",1000)
-mobile1.display_details()
-mobile2.display_details()
+# class mobile:
+#     def __init__(self,brand,price):
+#         self.price=price
+#         self.brand=brand
+#     def display_details(self):
+#         print("brand : ",self.brand)
+#         print("price : ",self.price)
+# mobile1=mobile("sivk",10000000000000)
+# mobile2=mobile("iphone",1000)
+# mobile1.display_details()
+# mobile2.display_details() 
+class here:
+    compony="google"
+    def __init__(self,name):
+        self.name=name
+    def display(self):
+        print("name : ",self.name)
+    @classmethod
+    def change_company(cls,comppany):
+        cls.compony=comppany
+here1=here("sivk")
+here2=here("pp")
+here.change_company("microsoft")
+here1.display()
+here2.display()
+print(here1.compony)
+print(here2.compony)
