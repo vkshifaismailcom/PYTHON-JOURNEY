@@ -593,5 +593,11 @@
 # bike1=bike()
 # car1.start()
 # bike1.start()
-print(5 * "SIVK")
-print("Python " * 2 + "Developer")
+# print(5 * "SIVK")
+# print("Python " * 2 + "Developer")
+class calculator():
+   def multiply(self,a,b,c=1):
+        print((a*b)*c)
+calculator1=calculator()
+calculator1.multiply(5,10)
+calculator1.multiply(5,10,5)
