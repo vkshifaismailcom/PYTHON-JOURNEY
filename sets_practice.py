@@ -595,9 +595,16 @@
 # bike1.start()
 # print(5 * "SIVK")
 # print("Python " * 2 + "Developer")
-class calculator():
-   def multiply(self,a,b,c=1):
-        print((a*b)*c)
-calculator1=calculator()
-calculator1.multiply(5,10)
-calculator1.multiply(5,10,5)
+# class calculator():
+#    def multiply(self,a,b,c=1):
+#         print((a*b)*c)
+# calculator1=calculator()
+# calculator1.multiply(5,10)
+# calculator1.multiply(5,10,5)
+class student:
+    def total_marks(self,*marks):
+        print(sum(marks))
+student1=student()
+student1.total_marks(80,90)
+student1.total_marks(80, 90, 85)
+student1.total_marks(80, 90, 85, 95)
