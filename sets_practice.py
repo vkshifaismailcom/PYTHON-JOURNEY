@@ -583,13 +583,15 @@
 
 # obj = Child()
 # obj.display()
-class car:
-    def start(self):
-        print("Car engine started")
-class bike:
-    def start(self):
-            print("bike engine started")
-car1=car()
-bike1=bike()
-car1.start()
-bike1.start()
+# class car:
+#     def start(self):
+#         print("Car engine started")
+# class bike:
+#     def start(self):
+#             print("bike engine started")
+# car1=car()
+# bike1=bike()
+# car1.start()
+# bike1.start()
+print(5 * "SIVK")
+print("Python " * 2 + "Developer")
