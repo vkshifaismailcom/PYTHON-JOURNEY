@@ -571,15 +571,25 @@
 #         print("i am a collage student")
 # collagestudent1=collagestudent()
 # collagestudent1.introduce()
-class Parent:
-    def display(self):
-        print("Parent method")
+# class Parent:
+#     def display(self):
+#         print("Parent method")
 
-class Child(Parent):
-    def display(self):
-        print("Child method")
-        # What should we write here to call the parent method?
-        super().display()
+# class Child(Parent):
+#     def display(self):
+#         print("Child method")
+#         # What should we write here to call the parent method?
+#         super().display()
 
-obj = Child()
-obj.display()
+# obj = Child()
+# obj.display()
+class car:
+    def start(self):
+        print("Car engine started")
+class bike:
+    def start(self):
+            print("bike engine started")
+car1=car()
+bike1=bike()
+car1.start()
+bike1.start()
