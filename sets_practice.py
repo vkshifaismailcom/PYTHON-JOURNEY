@@ -830,8 +830,14 @@
 #     return num*num
 # result=map(square,numbers)
 # print(list(result))
-ages = [12, 18, 25, 15, 30, 16]
-def is_adult(num):
-    return num>=18
-result=filter(is_adult,ages)
-print(list(result))
+# ages = [12, 18, 25, 15, 30, 16]
+# def is_adult(num):
+#     return num>=18
+# result=filter(is_adult,ages)
+# print(list(result))
+from functools import reduce
+numbers = [2, 3, 4, 5]
+def mul(a,b):
+    return a*b
+result=reduce(mul,numbers)
+print(result)
