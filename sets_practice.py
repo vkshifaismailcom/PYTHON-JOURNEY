@@ -825,8 +825,13 @@
 # file=open ("students.txt","r")
 # print(file.read())
 # file.close()
-numbers = [2, 4, 6, 8, 10]
-def square(num):
-    return num*num
-result=map(square,numbers)
+# numbers = [2, 4, 6, 8, 10]
+# def square(num):
+#     return num*num
+# result=map(square,numbers)
+# print(list(result))
+ages = [12, 18, 25, 15, 30, 16]
+def is_adult(num):
+    return num>=18
+result=filter(is_adult,ages)
 print(list(result))
