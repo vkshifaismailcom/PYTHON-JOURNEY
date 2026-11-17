@@ -884,8 +884,19 @@
 #     print("Welcome!")
 
 # welcome()
-def test(*args, **kwargs):
-    print(args)
-    print(kwargs)
+# def test(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
 
-test("Shifa", 18, city="Kozhikode")
+# test("Shifa", 18, city="Kozhikode")
+def welcome_decorator(fun):
+    def wrapper():
+        print("Welcome to Python!")
+        fun()
+        print("Enjoy learning!")
+    return wrapper
+# @welcome_decorator
+def start_learning():
+    print("Let's learn decorators!")
+hello=welcome_decorator(start_learning)
+hello()
