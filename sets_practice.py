@@ -641,7 +641,17 @@
 # print(emp1._Employee__salary)  # Outside the class
 # def set_balance(self, amount):
 #     self.__balance = amount
-class BankAccount:
+# class BankAccount:
+#     def __init__(self):
+#         self.__balance=10000
+#     def get_balance(self):
+#         return self.__balance
+#     def set_balance(self,amount):
+#         self.__balance=amount
+# account1=BankAccount()
+# account1.set_balance(15000)
+# print(account1.get_balance())
+class BankAccount():
     def __init__(self):
         self.__balance=10000
     def get_balance(self):
