@@ -843,6 +843,49 @@
 # print(result)
 # add=lambda a,b:a+b
 # print(add(20,10))
-products = ["Laptop", "Mobile", "Tablet"]
-prices = [50000, 20000, 15000]
-print(list(zip(products,prices)))
+# products = ["Laptop", "Mobile", "Tablet"]
+# prices = [50000, 20000, 15000]
+# print(list(zip(products,prices)))
+# def outer():
+#     name = "Shifa"
+
+#     def inner():
+#         print(name)
+
+#     return inner
+
+# outer()()
+# def my_decorator(func):
+#     def wrapper():
+#         print("Before function execution")
+
+#         func()
+
+#         print("After function execution")
+        
+#     return wrapper
+
+
+# # @my_decorator
+# def greet():
+#     print("Hello, Shifa!")
+
+# greets=my_decorator(greet)
+# greets()
+# def my_decorator(func):
+#     def wrapper():
+#         print("Start")
+#         # func()
+#         print("End")
+#     return wrapper
+
+# @my_decorator
+# def welcome():
+#     print("Welcome!")
+
+# welcome()
+def test(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+test("Shifa", 18, city="Kozhikode")
