@@ -813,19 +813,20 @@
 #     print(file.readline())
 #     print(file.readline())
 #     print(file.readline())
-
-
-
-
-file=open("students.txt","w")
-file.write("shifa\namina\nsara\n")
-file.close()
-file=open("students.txt","r")
-print(file.read())
-file.close()
-file=open("students.txt","a")
-file.write("rahul")
-file.close()
-file=open ("students.txt","r")
-print(file.read())
-file.close()
+# file=open("students.txt","w")
+# file.write("shifa\namina\nsara\n")
+# file.close()
+# file=open("students.txt","r")
+# print(file.read())
+# file.close()
+# file=open("students.txt","a")
+# file.write("rahul")
+# file.close()
+# file=open ("students.txt","r")
+# print(file.read())
+# file.close()
+numbers = [2, 4, 6, 8, 10]
+def square(num):
+    return num*num
+result=map(square,numbers)
+print(list(result))
