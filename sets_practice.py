@@ -681,20 +681,82 @@
 #         print(self._speed)
 # car=Car()
 # car.show_speed()
-class Employee:
-    def __init__(self):
-        self.name="shifa"
-        self._department="Development"
-        self.__salary=50000
-    def show_name(self):
-        print(self.name)
-    def show_department(self):
-        print(self._department)
-    def get_salary(self):
-        return self.__salary
-emp1=Employee()
-emp1.show_name()
-emp1.show_department()
-print(emp1._Employee__salary)
+# class Employee:
+#     def __init__(self):
+#         self.name="shifa"
+#         self._department="Development"
+#         self.__salary=50000
+#     def show_name(self):
+#         print(self.name)
+#     def show_department(self):
+#         print(self._department)
+#     def get_salary(self):
+#         return self.__salary
+# emp1=Employee()
+# emp1.show_name()
+# emp1.show_department()
+# print(emp1._Employee__salary)
+# class MyNumbers:
+#     def __iter__(self):
+#         return iter([10, 20, 30])
 
-        
+# numbers = MyNumbers()
+
+# my_iterator = iter(numbers)
+
+# print(next(my_iterator))
+# print(next(my_iterator))
+# print(next(my_iterator))
+# my_iterator = iter(numbers)
+# print(next(my_iterator))
+# print(next(my_iterator))
+# class number:
+#     def __iter__(self):
+#         return iter([10,20,30])
+# nuber1=number()
+# myiter=iter(nuber1)
+# print(next(myiter))
+# print(next(myiter))   
+# myiter=iter(nuber1)
+# print(next(myiter))
+# class number:
+#     def __init__(self):
+#         self.value=10
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.value<=30:
+#             current=self.value
+#             self.value+=10
+#             return current
+#         else:
+#             raise StopIteration
+# number1=number()
+# myiter=iter(number1)
+# print(next(myiter))
+# print(next(myiter))
+
+
+# myiter=iter(number1)
+
+# print(next(myiter))
+# print(next(myiter))
+class RollNumbers:
+    def __init__(self):
+        self.value=10
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.value<=50:
+            current=self.value
+            self.value+=10
+            return current
+        else:
+            raise StopIteration
+number1=RollNumbers()
+myiter=iter(number1)
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
+print(next(myiter))
