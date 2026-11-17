@@ -772,8 +772,60 @@
 #         yield num
 # for nu in even_numbers():
 #     print(nu)
-def even_numbers():
-    for num in range(2,11,2):
-        yield num
-for nu in even_numbers():
-    print(nu)
+# def even_numbers():
+#     for num in range(2,11,2):
+#         yield num
+# for nu in even_numbers():
+#     print(nu)
+# file = open("students.txt", "r")
+
+
+# print(file.read())
+
+# file.close()
+# file = open("students.txt", "w")
+# file.write("Rahul")
+# file.close()
+# file=open("students.txt","r")
+# print(file.read())
+# file.close()
+# file = open("students.txt", "r")
+# print(file.readlines())
+# file.close()
+# file = open("students.txt", "w")
+
+# file.write("Shifa\n")
+# file.write("Amina")
+# file.write("Sara")
+
+# file.close()
+# file = open("students.txt", "r")
+# print(file.readline())
+# print(file.readline())
+# print(file.readline())
+
+
+
+
+# with open("students.txt","w") as file:
+#     file.write("shifa\namina\nsara\n")
+# with open("students.txt","r") as file:
+#     print(file.readline())
+#     print(file.readline())
+#     print(file.readline())
+
+
+
+
+file=open("students.txt","w")
+file.write("shifa\namina\nsara\n")
+file.close()
+file=open("students.txt","r")
+print(file.read())
+file.close()
+file=open("students.txt","a")
+file.write("rahul")
+file.close()
+file=open ("students.txt","r")
+print(file.read())
+file.close()
