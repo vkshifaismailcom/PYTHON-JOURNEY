@@ -651,13 +651,33 @@
 # account1=BankAccount()
 # account1.set_balance(15000)
 # print(account1.get_balance())
-class BankAccount():
-    def __init__(self):
-        self.__balance=10000
-    def get_balance(self):
-        return self.__balance
-    def set_balance(self,amount):
-        self.__balance=amount
-account1=BankAccount()
-account1.set_balance(15000)
-print(account1.get_balance())
+# class BankAccount():
+#     def __init__(self):
+#         self.__balance=10000
+#     def get_balance(self):
+#         return self.__balance
+#     def set_balance(self,amount):
+#         self.__balance=amount
+# account1=BankAccount()
+# account1.set_balance(15000)
+# print(account1.get_balance())
+# class Employee:
+#     def __init__(self):
+#         self._salary = 50000
+
+
+# class Manager(Employee):
+#     def show_salary(self):
+#         print(self._salary)
+
+
+# manager1 = Manager()
+# manager1.show_salary()
+class Vehicle:
+    def  __init__(self):
+        self._speed=120
+class Car(Vehicle):
+    def show_speed(self):
+        print(self._speed)
+car=Car()
+car.show_speed()
