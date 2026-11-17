@@ -673,11 +673,28 @@
 
 # manager1 = Manager()
 # manager1.show_salary()
-class Vehicle:
-    def  __init__(self):
-        self._speed=120
-class Car(Vehicle):
-    def show_speed(self):
-        print(self._speed)
-car=Car()
-car.show_speed()
+# class Vehicle:
+#     def  __init__(self):
+#         self._speed=120
+# class Car(Vehicle):
+#     def show_speed(self):
+#         print(self._speed)
+# car=Car()
+# car.show_speed()
+class Employee:
+    def __init__(self):
+        self.name="shifa"
+        self._department="Development"
+        self.__salary=50000
+    def show_name(self):
+        print(self.name)
+    def show_department(self):
+        print(self._department)
+    def get_salary(self):
+        return self.__salary
+emp1=Employee()
+emp1.show_name()
+emp1.show_department()
+print(emp1._Employee__salary)
+
+        
