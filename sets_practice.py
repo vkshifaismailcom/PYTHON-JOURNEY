@@ -835,9 +835,14 @@
 #     return num>=18
 # result=filter(is_adult,ages)
 # print(list(result))
-from functools import reduce
-numbers = [2, 3, 4, 5]
-def mul(a,b):
-    return a*b
-result=reduce(mul,numbers)
-print(result)
+# from functools import reduce
+# numbers = [2, 3, 4, 5]
+# def mul(a,b):
+#     return a*b
+# result=reduce(mul,numbers)
+# print(result)
+# add=lambda a,b:a+b
+# print(add(20,10))
+products = ["Laptop", "Mobile", "Tablet"]
+prices = [50000, 20000, 15000]
+print(list(zip(products,prices)))
