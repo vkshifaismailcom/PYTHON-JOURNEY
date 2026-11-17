@@ -741,22 +741,29 @@
 
 # print(next(myiter))
 # print(next(myiter))
-class RollNumbers:
-    def __init__(self):
-        self.value=10
-    def __iter__(self):
-        return self
-    def __next__(self):
-        if self.value<=50:
-            current=self.value
-            self.value+=10
-            return current
-        else:
-            raise StopIteration
-number1=RollNumbers()
-myiter=iter(number1)
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
-print(next(myiter))
+# class RollNumbers:
+#     def __init__(self):
+#         self.value=10
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.value<=50:
+#             current=self.value
+#             self.value+=10
+#             return current
+#         else:
+#             raise StopIteration
+# number1=RollNumbers()
+# myiter=iter(number1)
+# print(next(myiter))
+# print(next(myiter))
+# print(next(myiter))
+# print(next(myiter))
+# print(next(myiter))
+def numbers():
+    yield 10
+    yield 20
+    yield 30
+
+for num in numbers():
+    print(num * 2)
