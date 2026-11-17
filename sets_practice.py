@@ -760,10 +760,20 @@
 # print(next(myiter))
 # print(next(myiter))
 # print(next(myiter))
-def numbers():
-    yield 10
-    yield 20
-    yield 30
+# def numbers():
+#     yield 10
+#     yield 20
+#     yield 30
 
-for num in numbers():
-    print(num * 2)
+# for num in numbers():
+#     print(num * 2)
+# def even_numbers():
+#     for num in range(2,11,2):
+#         yield num
+# for nu in even_numbers():
+#     print(nu)
+def even_numbers():
+    for num in range(2,11,2):
+        yield num
+for nu in even_numbers():
+    print(nu)
