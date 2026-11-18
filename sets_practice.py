@@ -1290,22 +1290,56 @@ num = 5
 # print(products.count("Buddha"))
 # products.clear()
 # print(products)
-numbers = [40, 10, 30, 20, 50]
-numbers.sort()
-print(numbers)
-print(sorted(numbers,reverse=True))
-numbers.reverse()
-print(numbers)
-print(numbers.copy())
-copy=numbers[:]
-print(copy)
-a=[1,2,3]
-b=a
-b[0]=20
-print(a)
-print(b)
-c=[4,5,6]
-d=c.copy()
-d[1]=40
-print(d)
-print(c)
+# numbers = [40, 10, 30, 20, 50]
+# numbers.sort()
+# print(numbers)
+# print(sorted(numbers,reverse=True))
+# numbers.reverse()
+# print(numbers)
+# print(numbers.copy())
+# copy=numbers[:]
+# print(copy)
+# a=[1,2,3]
+# b=a
+# b[0]=20
+# print(a)
+# print(b)
+# c=[4,5,6]
+# d=c.copy()
+# d[1]=40
+# print(d)
+# print(c)
+numbers = [12, 45, 7, 89, 23, 56]
+max=numbers[0]
+small=numbers[0]
+sum=0
+len=0
+even=0
+odd=0
+evens=[]
+odds=[]
+se=0
+for i in numbers:
+    if i>max:
+        max=i
+    elif i<small:
+        small=i
+    sum+=i
+    len+=1
+    if i%2==0:
+        even+=1
+        evens.append(i)
+    else:
+        odd+=1
+        odds.append(i)
+    if i<max and i>small:
+        se+=i
+print(f"largest : {max}")
+print(f"smallest : {small}")
+print(sum)
+print(sum/len)
+print(f"even :{even}")
+print(f"odd: {odd}")
+print(evens)
+print(odds)
+print(se)
