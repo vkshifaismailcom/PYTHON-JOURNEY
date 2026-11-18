@@ -1219,14 +1219,21 @@ num = 5
 # print(category.isupper())
 # print(product_name.istitle())
 # print(hello.isspace())
-description = "beautiful silver miniature statue for home decoration"
+# description = "beautiful silver miniature statue for home decoration"
 
-sentence = "python is powerful and python is easy"
+# sentence = "python is powerful and python is easy"
 
-words1 = ["SIVK", "SCULPT", "PREMIUM"]
+# words1 = ["SIVK", "SCULPT", "PREMIUM"]
 
-words2 = ["Python", "String", "Methods"]
-print(description.split(" "))
-print(sentence.split("and"))
-print("-".join(words1))
-print(" ".join(words2))
+# words2 = ["Python", "String", "Methods"]
+# print(description.split(" "))
+# print(sentence.split("and"))
+# print("-".join(words1))
+# print(" ".join(words2))
+price = "2500"
+name = "SIVK"
+language = "PYTHON"
+print(price.zfill(8))
+print(name.center(20,"*"))
+print(language.ljust(15,"-"))
+print(language.rjust(15,'-'))
