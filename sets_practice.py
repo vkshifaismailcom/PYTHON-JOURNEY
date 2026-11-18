@@ -1087,8 +1087,20 @@ count=0
 #     length+=1
 
 # print(f"total charector is: {length}")
-text = "PYTHON"
-rev=""
-for i in text:
-    rev=i+rev
-print(rev)
+# text = "PYTHON"
+# rev=""
+# for i in text:
+#     rev=i+rev
+# print(rev)
+# numbers = [12, 45, 7, 89, 23, 56]
+# lar=numbers[0]
+# for num in numbers:
+#     if num>lar:
+#         lar=num
+# print(f"the largest number is {lar}")
+numbers = [12, 45, 7, 89, 23, 56]
+lar=numbers[0]
+for num in numbers:
+    if num>lar:
+        lar=num
+print(f"largest number: {lar}")
