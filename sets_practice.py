@@ -1013,19 +1013,27 @@
 # print(a is c)
 # print(a==c)
 # print(b is not c)
-num=int(input("enter a number : "))
-if num>100 or num<0:
-    print("not valid")
-elif num>=90:
-    print("A+")
-elif num>=80:
-    print("A")
-elif num>=70:
-    print("B")
-elif num>=60:
-    print("C")
-elif num>=50:
-    print("D")
-else:
-    print("FAIL")
-    
+# num=int(input("enter a number : "))
+# if num>100 or num<0:
+#     print("not valid")
+# elif num>=90:
+#     print("A+")
+# elif num>=80:
+#     print("A")
+# elif num>=70:
+#     print("B")
+# elif num>=60:
+#     print("C")
+# elif num>=50:
+#     print("D")
+# else:
+#     print("FAIL")
+# for i in range(1,11):
+#     print(i)
+numbers = [1, 2, 3, 4]
+
+for num in numbers:
+    if num == 2:
+        numbers.remove(num)
+
+print(numbers)
