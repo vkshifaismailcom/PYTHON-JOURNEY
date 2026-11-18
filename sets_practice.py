@@ -1237,6 +1237,25 @@ num = 5
 # print(name.center(20,"*"))
 # print(language.ljust(15,"-"))
 # print(language.rjust(15,'-'))
-filename = "SIVK_SCULPT_PRODUCT.txt"
-print(filename.removeprefix("SIVK_"))
-print(filename.removesuffix(".txt"))
+# filename = "SIVK_SCULPT_PRODUCT.txt"
+# print(filename.removeprefix("SIVK_"))
+# print(filename.removesuffix(".txt"))
+customer_name = "   sHiFa IsMaIl   "
+email = "SHIFA@SIVKSCULPT.COM"
+product = "silver miniature buddha statue"
+product_id = "sculpt2026"
+price = "4500"
+lowers=customer_name.lower()
+print(customer_name.strip())
+print(customer_name.capitalize())
+print(email.lower())
+print(email.endswith(".COM"))
+print("silver" in product)
+print(product.replace("silver","premium silver"))
+print(lowers.count("i"))
+print(product_id.isalnum())
+print(price.isdigit())
+words=product.split(" ")
+print(words)
+print("_".join(words))
+print(price.zfill(10))
