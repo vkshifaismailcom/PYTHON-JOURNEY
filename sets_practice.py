@@ -1081,9 +1081,14 @@ count=0
 # for i in range(6,0,-1):
 #     total*=i
 # print(f"factorial of 5 is {total}")
-text = "SHIFA"
-length=0
-for let in text:
-    length+=1
+# text = "SHIFA"
+# length=0
+# for let in text:
+#     length+=1
 
-print(f"total charector is: {length}")
+# print(f"total charector is: {length}")
+text = "PYTHON"
+rev=""
+for i in text:
+    rev=i+rev
+print(rev)
