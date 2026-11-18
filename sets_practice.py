@@ -1053,7 +1053,27 @@
 #     print(i)
 # for i in range(1,11):
 #     print(f"7 *{i}={7*i}")
-total=0
-for i in range(1,11):
-    total+=i
-print(total)
+# total=0
+# for i in range(1,11):
+#     total+=i
+# print(total)
+# total=0
+# i=1
+# while i<=10:
+#     total+=i
+#     i+=1
+# print(total)
+# total=sum(range(1,11))
+# print(total)
+# numbers=[]
+# for i in range(1,11):
+#     numbers.append(i)
+# print(sum(numbers))
+# for i in range(2,21,2):
+#     print(i)
+count=0
+for i in range(2,21):
+    if i%2==0:
+        print(i)
+        count+=1
+print("total length =",count)
