@@ -1098,9 +1098,24 @@ count=0
 #     if num>lar:
 #         lar=num
 # print(f"the largest number is {lar}")
-numbers = [12, 45, 7, 89, 23, 56]
-lar=numbers[0]
-for num in numbers:
-    if num>lar:
-        lar=num
-print(f"largest number: {lar}")
+# numbers = [12, 45, 7, 89, 23, 56]
+# lar=numbers[0]
+# for num in numbers:
+#     if num>lar:
+#         lar=num
+# print(f"largest number: {lar}")
+# text = "programming"
+# vovel=0
+# texs="aeiou"
+# for tex in text:
+#     if tex in texs:
+#         vovel+=1
+# print(vovel)
+# for i in range(1,6):
+#     for a in range(i):
+#         print("*",end="")
+#     print()
+for i in range(1,6):
+    for j in range(i):
+        print("*",end="")
+    print()
