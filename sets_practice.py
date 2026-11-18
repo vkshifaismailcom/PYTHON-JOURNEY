@@ -1179,5 +1179,7 @@ num = 5
 # text = "Hello Python"
 # print(text.upper())
 # print(text.lower())
+# text = "welcome to python programming"
+# print(text.capitalize())
 text = "welcome to python programming"
-print(text.capitalize())
+print(text.title())
