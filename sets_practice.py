@@ -1030,10 +1030,14 @@
 #     print("FAIL")
 # for i in range(1,11):
 #     print(i)
-numbers = [1, 2, 3, 4]
+# numbers = [1, 2, 3, 4]
 
-for num in numbers:
-    if num == 2:
-        numbers.remove(num)
+# for num in numbers:
+#     if num == 2:
+#         numbers.remove(num)
 
-print(numbers)
+# print(numbers)
+for i in range(5):
+    print(i)     # 0, 1, 2, 3, 4
+for a in range(1, 5):
+    print(a)  # 1, 2, 3, 4
