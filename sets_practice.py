@@ -1072,8 +1072,13 @@
 # for i in range(2,21,2):
 #     print(i)
 count=0
-for i in range(2,21):
-    if i%2==0:
-        print(i)
-        count+=1
-print("total length =",count)
+# for i in range(2,21):
+#     if i%2==0:
+#         print(i)
+#         count+=1
+# print("total length =",count)
+total=1
+for i in range(6,0,-1):
+    total*=i
+print(f"factorial of 5 is {total}")
+        
