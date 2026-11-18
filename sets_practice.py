@@ -993,11 +993,16 @@
 # print(student1!=student2)
 # print(student1>=85)
 # print(student2<=900)
-age = 20
-qualification = "BCA"
-training_completed = True
-ag=age>=18
-quali=qualification=="BCA" or qualification== "BSc"
-print(ag and quali and training_completed)
-print(ag or quali or training_completed)
-print(not(ag and quali and training_completed))
+# age = 20
+# qualification = "BCA"
+# training_completed = True
+# ag=age>=18
+# quali=qualification=="BCA" or qualification== "BSc"
+# print(ag and quali and training_completed)
+# print(ag or quali or training_completed)
+# print(not(ag and quali and training_completed))
+skills = ["Python", "JavaScript", "React", "HTML", "CSS"]
+print("Python" in skills)
+print("Java" in skills)
+print("React" not in skills )
+print("CSS" in skills)
