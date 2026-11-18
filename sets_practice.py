@@ -1115,7 +1115,19 @@ count=0
 #     for a in range(i):
 #         print("*",end="")
 #     print()
-for i in range(1,6):
-    for j in range(i):
-        print("*",end="")
-    print()
+# for i in range(1,6):
+#     for j in range(i):
+#         print("*",end="")
+#     print()
+num=int(input("enter the number : "))
+prime=True
+if num<2:
+    prime=False
+for i in range(2,num):
+    if num%i==0:
+        prime=False
+        break
+if prime:
+    print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
