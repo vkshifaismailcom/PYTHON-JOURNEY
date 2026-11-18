@@ -1341,5 +1341,23 @@ num = 5
 # print(f"odd: {odd}")
 # print(evens)
 # print(odds)
-numbers = [5, 10, 5, 20, 10, 5, 30, 20, 10]
-print(numbers.count(5))
+# numbers = [5, 10, 5, 20, 10, 5, 30, 20, 10]
+# print(numbers.count(5))
+students = [
+    ["Shifa", 90],
+    ["Amina", 85],
+    ["Sara", 95]
+]
+high=students[0][1]
+marks=[students[0][1],students[1][1],students[0][1]]
+print(students[0][1])
+print(students[2][0])
+sum=sum(student[1] for student in students)
+print(sum)
+len=len(students)
+print(sum/len)
+for student in students:
+    print(student[0],student[1])
+    if student[1]>high:
+        high=student[1]
+        print(f"{student[0]}-{student[1]}")
