@@ -911,13 +911,22 @@
 #     return final
 # result=calculte_discount(1000,10)
 # print(result) 
-class Phone:
-    def call(self):
-        print("Making a normal call")
+# class Phone:
+#     def call(self):
+#         print("Making a normal call")
 
-def video_call(self):
-    print("Making a video call")
-Phone.call=video_call
+# def video_call(self):
+#     print("Making a video call")
+# Phone.call=video_call
 
-phone = Phone()
-phone.call()
+# phone = Phone()
+# phone.call()
+class Student:
+    def __init__(self, name):
+        self.name = name
+    def __str__(self):
+        return self.name
+
+student1 = Student("Shifa")
+
+print(student1)
