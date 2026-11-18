@@ -938,12 +938,14 @@
 #         return f"product:{self.name}|price:{self.price}"
 # product1=product("laptop",30000)
 # print(product1)
-import copy
+# import copy
 
-original = [[10, 20], [30, 40]]
+# original = [[10, 20], [30, 40]]
 
-new = copy.deepcopy(original)
-new[0].append(999)
+# new = copy.deepcopy(original)
+# new[0].append(999)
 
-print(original)
-print(new)
+# print(original)
+# print(new)
+x=[]
+print(type(x))
