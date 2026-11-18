@@ -959,17 +959,29 @@
 # numbers[0] = 100
 
 # print(numbers)
-prices=1250
-Quantity = 4
-Discount = 15
-Deliverycharge = 100
-price=prices*Quantity
-print(price)
-dis=prices*Discount/100
-print(dis*4)
-print(price-dis*4)
-print()
-fin=price+Deliverycharge-dis*4
-print(fin)
-print(fin%500)
-print(fin**2)
+# prices=1250
+# Quantity = 4
+# Discount = 15
+# Deliverycharge = 100
+# price=prices*Quantity
+# print(price)
+# dis=prices*Discount/100
+# print(dis*4)
+# print(price-dis*4)
+# print()
+# fin=price+Deliverycharge-dis*4
+# print(fin)
+# print(fin%500)
+# print(fin**2)
+balance = 5000
+print(balance)
+balance+=1500
+print(balance)
+balance-=750
+print(balance)
+balance*=2
+print(balance)
+balance/=2
+print(balance)
+balance%=1000
+print(balance)
