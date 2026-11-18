@@ -1208,14 +1208,25 @@ num = 5
 # print(description.endswith("easy"))
 # print("silver" in description)
 # print("gold" not in description)
-product_code = "sculpt123"
-price = "2500"
-category = "SCULPTURES"
-product_name = "   miniature silver BUDDHA statue   "
-hello="   "
-print(product_code.isalpha())
-print(price.isdigit())
-print(product_code.isalnum())
-print(category.isupper())
-print(product_name.istitle())
-print(hello.isspace())
+# product_code = "sculpt123"
+# price = "2500"
+# category = "SCULPTURES"
+# product_name = "   miniature silver BUDDHA statue   "
+# hello="   "
+# print(product_code.isalpha())
+# print(price.isdigit())
+# print(product_code.isalnum())
+# print(category.isupper())
+# print(product_name.istitle())
+# print(hello.isspace())
+description = "beautiful silver miniature statue for home decoration"
+
+sentence = "python is powerful and python is easy"
+
+words1 = ["SIVK", "SCULPT", "PREMIUM"]
+
+words2 = ["Python", "String", "Methods"]
+print(description.split(" "))
+print(sentence.split("and"))
+print("-".join(words1))
+print(" ".join(words2))
