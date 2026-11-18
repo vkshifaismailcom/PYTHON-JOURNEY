@@ -985,11 +985,19 @@
 # print(balance)
 # balance%=1000
 # print(balance)
-student1 = 85
-student2 = 92
-print(student1>student2)
-print(student1<student2)
-print(student1==student2)
-print(student1!=student2)
-print(student1>=85)
-print(student2<=900)
+# student1 = 85
+# student2 = 92
+# print(student1>student2)
+# print(student1<student2)
+# print(student1==student2)
+# print(student1!=student2)
+# print(student1>=85)
+# print(student2<=900)
+age = 20
+qualification = "BCA"
+training_completed = True
+ag=age>=18
+quali=qualification=="BCA" or qualification== "BSc"
+print(ag and quali and training_completed)
+print(ag or quali or training_completed)
+print(not(ag and quali and training_completed))
