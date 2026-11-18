@@ -1047,5 +1047,7 @@
 #     print(i)
 # for num in [10, 20, 30]:
 #     print(num)
-for i in range(1, 11):
+# for i in range(1, 11):
+#     print(i)
+for i in range(10, 0, -1):
     print(i)
