@@ -1160,6 +1160,8 @@ num = 5
 #     print(i)
 # else:
 #     print("Loop completed")
-for i in range(3):
-    for j in range(2):
-        print(i, j)
+# for i in range(3):
+#     for j in range(2):
+#         print(i, j)
+for i in range(1, 6):
+    print(i)
