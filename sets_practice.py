@@ -1143,5 +1143,10 @@ count=0
 #     print(f"{num} is a prime number")
 # else:
 #     print(f"{num} is not a prime number")
-for i in range(2, 11, 2):
-    print(i)
+# for i in range(2, 11, 2):
+#     print(i)
+num = 5
+
+while num > 0:
+    print(num)
+    num -= 2
