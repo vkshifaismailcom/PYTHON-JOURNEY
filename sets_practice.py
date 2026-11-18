@@ -1278,15 +1278,34 @@ num = 5
 # print(max(numbers))
 # print(sum(numbers))
 # print(numbers)
-products = ["Buddha", "Ganesha", "Shiva"]
-products.append("krishna")
-products.extend(["lakshmi","saraswathi"])
-products.insert(1,"durga")
-products.remove("Ganesha")
-remo=products.pop()
-print(remo)
-print(products)
-print(products.index("Shiva"))
-print(products.count("Buddha"))
-products.clear()
-print(products)
+# products = ["Buddha", "Ganesha", "Shiva"]
+# products.append("krishna")
+# products.extend(["lakshmi","saraswathi"])
+# products.insert(1,"durga")
+# products.remove("Ganesha")
+# remo=products.pop()
+# print(remo)
+# print(products)
+# print(products.index("Shiva"))
+# print(products.count("Buddha"))
+# products.clear()
+# print(products)
+numbers = [40, 10, 30, 20, 50]
+numbers.sort()
+print(numbers)
+print(sorted(numbers,reverse=True))
+numbers.reverse()
+print(numbers)
+print(numbers.copy())
+copy=numbers[:]
+print(copy)
+a=[1,2,3]
+b=a
+b[0]=20
+print(a)
+print(b)
+c=[4,5,6]
+d=c.copy()
+d[1]=40
+print(d)
+print(c)
