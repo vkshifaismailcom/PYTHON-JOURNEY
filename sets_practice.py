@@ -1006,10 +1006,26 @@
 # print("Java" in skills)
 # print("React" not in skills )
 # print("CSS" in skills)
-a = [10, 20, 30]
-b = a
-c = [10, 20, 30]
-print(a is b)
-print(a is c)
-print(a==c)
-print(b is not c)
+# a = [10, 20, 30]
+# b = a
+# c = [10, 20, 30]
+# print(a is b)
+# print(a is c)
+# print(a==c)
+# print(b is not c)
+num=int(input("enter a number : "))
+if num>100 or num<0:
+    print("not valid")
+elif num>=90:
+    print("A+")
+elif num>=80:
+    print("A")
+elif num>=70:
+    print("B")
+elif num>=60:
+    print("C")
+elif num>=50:
+    print("D")
+else:
+    print("FAIL")
+    
