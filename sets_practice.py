@@ -1045,5 +1045,7 @@
 #     print(i)
 # for i in []:
 #     print(i)
-for num in [10, 20, 30]:
-    print(num)
+# for num in [10, 20, 30]:
+#     print(num)
+for i in range(1, 11):
+    print(i)
