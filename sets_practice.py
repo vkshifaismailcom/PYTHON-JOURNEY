@@ -973,15 +973,23 @@
 # print(fin)
 # print(fin%500)
 # print(fin**2)
-balance = 5000
-print(balance)
-balance+=1500
-print(balance)
-balance-=750
-print(balance)
-balance*=2
-print(balance)
-balance/=2
-print(balance)
-balance%=1000
-print(balance)
+# balance = 5000
+# print(balance)
+# balance+=1500
+# print(balance)
+# balance-=750
+# print(balance)
+# balance*=2
+# print(balance)
+# balance/=2
+# print(balance)
+# balance%=1000
+# print(balance)
+student1 = 85
+student2 = 92
+print(student1>student2)
+print(student1<student2)
+print(student1==student2)
+print(student1!=student2)
+print(student1>=85)
+print(student2<=900)
