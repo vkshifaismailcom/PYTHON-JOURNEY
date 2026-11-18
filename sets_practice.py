@@ -949,3 +949,5 @@
 # print(new)
 # x=[]
 # print(type(x))
+hello="heeey"
+print(hello)
