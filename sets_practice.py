@@ -1037,7 +1037,9 @@
 #         numbers.remove(num)
 
 # print(numbers)
-for i in range(5):
-    print(i)     # 0, 1, 2, 3, 4
-for a in range(1, 5):
-    print(a)  # 1, 2, 3, 4
+# for i in range(5):
+#     print(i)     # 0, 1, 2, 3, 4
+# for a in range(1, 5):
+#     print(a)  # 1, 2, 3, 4
+for i in range(10, 0, -2):
+    print(i)
