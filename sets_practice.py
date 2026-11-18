@@ -1077,8 +1077,13 @@ count=0
 #         print(i)
 #         count+=1
 # print("total length =",count)
-total=1
-for i in range(6,0,-1):
-    total*=i
-print(f"factorial of 5 is {total}")
-        
+# total=1
+# for i in range(6,0,-1):
+#     total*=i
+# print(f"factorial of 5 is {total}")
+text = "SHIFA"
+length=0
+for let in text:
+    length+=1
+
+print(f"total charector is: {length}")
