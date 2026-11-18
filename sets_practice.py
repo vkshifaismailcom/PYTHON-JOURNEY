@@ -1361,6 +1361,9 @@ num = 5
 #     if student[1]>high:
 #         high=student[1]
 #         print(f"{student[0]}-{student[1]}")
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-squra=[number for number in numbers if number%2==0]
-print(squra)
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# squra=[number for number in numbers if number%2==0]
+# print(squra)
+numbers = [12, 45, 67, 23, 89, 34, 90]
+gr=[num for num in numbers if num>50]
+print(gr)
