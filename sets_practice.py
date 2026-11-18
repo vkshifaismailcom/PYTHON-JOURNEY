@@ -921,12 +921,20 @@
 
 # phone = Phone()
 # phone.call()
-class Student:
-    def __init__(self, name):
-        self.name = name
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+#     def __str__(self):
+#         return self.name
+
+# student1 = Student("Shifa")
+
+# print(student1)
+class product():
+    def __init__(self,name,price):
+        self.name=name
+        self.price=price
     def __str__(self):
-        return self.name
-
-student1 = Student("Shifa")
-
-print(student1)
+        return f"product:{self.name}|price:{self.price}"
+product1=product("laptop",30000)
+print(product1)
