@@ -1173,6 +1173,9 @@ num = 5
 # for i in range(1, 6):
 #     if i == 3:
 #         print("Found")
-text = "SHIFA"
-hello=len(text)
-print(f"total charector: {hello}")
+# text = "SHIFA"
+# hello=len(text)
+# print(f"total charector: {hello}")
+text = "Hello Python"
+print(text.upper())
+print(text.lower())
