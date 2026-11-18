@@ -930,11 +930,20 @@
 # student1 = Student("Shifa")
 
 # print(student1)
-class product():
-    def __init__(self,name,price):
-        self.name=name
-        self.price=price
-    def __str__(self):
-        return f"product:{self.name}|price:{self.price}"
-product1=product("laptop",30000)
-print(product1)
+# class product():
+#     def __init__(self,name,price):
+#         self.name=name
+#         self.price=price
+#     def __str__(self):
+#         return f"product:{self.name}|price:{self.price}"
+# product1=product("laptop",30000)
+# print(product1)
+import copy
+
+original = [[10, 20], [30, 40]]
+
+new = copy.deepcopy(original)
+new[0].append(999)
+
+print(original)
+print(new)
