@@ -1001,8 +1001,15 @@
 # print(ag and quali and training_completed)
 # print(ag or quali or training_completed)
 # print(not(ag and quali and training_completed))
-skills = ["Python", "JavaScript", "React", "HTML", "CSS"]
-print("Python" in skills)
-print("Java" in skills)
-print("React" not in skills )
-print("CSS" in skills)
+# skills = ["Python", "JavaScript", "React", "HTML", "CSS"]
+# print("Python" in skills)
+# print("Java" in skills)
+# print("React" not in skills )
+# print("CSS" in skills)
+a = [10, 20, 30]
+b = a
+c = [10, 20, 30]
+print(a is b)
+print(a is c)
+print(a==c)
+print(b is not c)
