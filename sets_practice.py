@@ -1165,8 +1165,11 @@ num = 5
 #         print(i, j)
 # for i in range(1, 6):
 #     print(i)
-num = 1
+# num = 1
 
-while num <= 5:
-    print(num)
-    num+=1
+# while num <= 5:
+#     print(num)
+#     num+=1
+for i in range(1, 6):
+    if i == 3:
+        print("Found")
