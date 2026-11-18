@@ -949,5 +949,13 @@
 # print(new)
 # x=[]
 # print(type(x))
-hello="heeey"
-print(hello)
+# hello="heeey"
+# print(hello)
+
+# hello = "Shifa"
+# hello = 100
+# print(hello)
+numbers = [10, 20, 30]
+numbers[0] = 100
+
+print(numbers)
