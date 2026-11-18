@@ -1230,10 +1230,13 @@ num = 5
 # print(sentence.split("and"))
 # print("-".join(words1))
 # print(" ".join(words2))
-price = "2500"
-name = "SIVK"
-language = "PYTHON"
-print(price.zfill(8))
-print(name.center(20,"*"))
-print(language.ljust(15,"-"))
-print(language.rjust(15,'-'))
+# price = "2500"
+# name = "SIVK"
+# language = "PYTHON"
+# print(price.zfill(8))
+# print(name.center(20,"*"))
+# print(language.ljust(15,"-"))
+# print(language.rjust(15,'-'))
+filename = "SIVK_SCULPT_PRODUCT.txt"
+print(filename.removeprefix("SIVK_"))
+print(filename.removesuffix(".txt"))
