@@ -1362,5 +1362,5 @@ num = 5
 #         high=student[1]
 #         print(f"{student[0]}-{student[1]}")
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-squra=[number**2 for number in numbers]
+squra=[number for number in numbers if number%2==0]
 print(squra)
