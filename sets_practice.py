@@ -1181,5 +1181,30 @@ num = 5
 # print(text.lower())
 # text = "welcome to python programming"
 # print(text.capitalize())
-text = "welcome to python programming"
-print(text.title())
+# 
+# print("Hi".center(8, "-"))
+# print(	"Hi".ljust(5, "-"))
+product_name = "   miniature silver BUDDHA statue   "
+category = "SCULPTURES"
+description = "beautiful silver miniature statue for home decoration"
+product_code = "sculpt123"
+price = "2500"
+sentence = "python is powerful and python is easy"
+email = "admin@sivksculpt.com"
+filename = "SIVK_SCULPT_PRODUCT.txt"
+print(product_name.strip())
+print(product_name.lstrip())
+print(product_name.rstrip())
+print(product_name.upper())
+print(product_name.lower())
+print(product_name.capitalize())
+print(product_name.title())
+print(product_name.swapcase())
+print(description.replace("silver","premium silver"))
+print(sentence.index("python"))
+print(sentence.index("powerful"))
+print(description.count("python"))
+print(description.startswith("python"))
+print(description.endswith("easy"))
+print("silver" in description)
+print("gold" not in description)
