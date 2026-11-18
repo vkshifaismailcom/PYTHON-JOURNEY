@@ -955,7 +955,21 @@
 # hello = "Shifa"
 # hello = 100
 # print(hello)
-numbers = [10, 20, 30]
-numbers[0] = 100
+# numbers = [10, 20, 30]
+# numbers[0] = 100
 
-print(numbers)
+# print(numbers)
+prices=1250
+Quantity = 4
+Discount = 15
+Deliverycharge = 100
+price=prices*Quantity
+print(price)
+dis=prices*Discount/100
+print(dis*4)
+print(price-dis*4)
+print()
+fin=price+Deliverycharge-dis*4
+print(fin)
+print(fin%500)
+print(fin**2)
