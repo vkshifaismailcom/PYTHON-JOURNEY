@@ -905,9 +905,19 @@
 
 # result = get_number()
 # print(result)
-def calculte_discount(price,discount):
-    num=price*discount/100
-    final=price-num
-    return final
-result=calculte_discount(1000,10)
-print(result)
+# def calculte_discount(price,discount):
+#     num=price*discount/100
+#     final=price-num
+#     return final
+# result=calculte_discount(1000,10)
+# print(result) 
+class Phone:
+    def call(self):
+        print("Making a normal call")
+
+def video_call(self):
+    print("Making a video call")
+Phone.call=video_call
+
+phone = Phone()
+phone.call()
