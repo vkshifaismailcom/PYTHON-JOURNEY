@@ -1240,22 +1240,41 @@ num = 5
 # filename = "SIVK_SCULPT_PRODUCT.txt"
 # print(filename.removeprefix("SIVK_"))
 # print(filename.removesuffix(".txt"))
-customer_name = "   sHiFa IsMaIl   "
-email = "SHIFA@SIVKSCULPT.COM"
-product = "silver miniature buddha statue"
-product_id = "sculpt2026"
-price = "4500"
-lowers=customer_name.lower()
-print(customer_name.strip())
-print(customer_name.capitalize())
-print(email.lower())
-print(email.endswith(".COM"))
-print("silver" in product)
-print(product.replace("silver","premium silver"))
-print(lowers.count("i"))
-print(product_id.isalnum())
-print(price.isdigit())
-words=product.split(" ")
-print(words)
-print("_".join(words))
-print(price.zfill(10))
+# customer_name = "   sHiFa IsMaIl   "
+# email = "SHIFA@SIVKSCULPT.COM"
+# product = "silver miniature buddha statue"
+# product_id = "sculpt2026"
+# price = "4500"
+# lowers=customer_name.lower()
+# print(customer_name.strip())
+# print(customer_name.capitalize())
+# print(email.lower())
+# print(email.endswith(".COM"))
+# print("silver" in product)
+# print(product.replace("silver","premium silver"))
+# print(lowers.count("i"))
+# print(product_id.isalnum())
+# print(price.isdigit())
+# words=product.split(" ")
+# print(words)
+# print("_".join(words))
+# print(price.zfill(10))
+    # a = [10, 20, 30, 20, 40]
+# square=[]
+# for i in range(1,6):
+#     square.append(i*2)
+# print(square)
+# square=[num*2 for num in range(1,6)]
+# print(square)
+numbers = [10, 20, 30, 40, 50]
+print(numbers[0])
+print(numbers[-1])
+print(numbers[::-1])
+numbers.insert(1,200)
+numbers.append(60)
+print(len(numbers))
+print(30 in numbers)
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+print(numbers)
