@@ -1043,5 +1043,7 @@
 #     print(a)  # 1, 2, 3, 4
 # for i in range(10, 0, -2):
 #     print(i)
-for i in []:
-    print(i)
+# for i in []:
+#     print(i)
+for num in [10, 20, 30]:
+    print(num)
