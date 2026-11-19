@@ -1376,9 +1376,14 @@ num = 5
 #     if i not in nums:
 #         nums.append(i)
 # print(nums)
-items = ["apple", "banana", "apple", "orange", "banana"]
-item=[]
-for i in items:
-    if i not in item:
-        item.append(i)
-print(item)
+# items = ["apple", "banana", "apple", "orange", "banana"]
+# item=[]
+# for i in items:
+#     if i not in item:
+#         item.append(i)
+# print(item)
+list1 = [10, 20, 30]
+list2 = [40, 50, 60]
+# print(list1+list2)
+list1.extend(list2)
+print(list1)
