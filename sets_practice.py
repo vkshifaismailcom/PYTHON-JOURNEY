@@ -1649,12 +1649,22 @@ num = 5
 # marks = [95, 88, 76, 92]
 # heey=dict(zip(names,marks))
 # print(heey)
-products = {
-    "Laptop": 50000,
-    "Mouse": 500,
-    "Keyboard": 1500,
-    "Phone": 20000,
-    "Pen": 20
-}
-gr={pro:pri for pro,pri in products.items()if pri>1000 }
-print(gr)
+# products = {
+#     "Laptop": 50000,
+#     "Mouse": 500,
+#     "Keyboard": 1500,
+#     "Phone": 20000,
+#     "Pen": 20
+# }
+# gr={pro:pri for pro,pri in products.items()if pri>1000 }
+# print(gr)
+students = {}
+students.update({
+    "sara":{"age":18,"marks":90},
+    "rahul":{"age":20,"marks":85},
+    "amina":{"age":19,"marks":95}
+})
+print(students["sara"]["marks"])
+students["amina"]["marks"]=98
+students.update({"sivk":{"age":19,"marks":95}})
+print(students)
