@@ -1766,11 +1766,20 @@ num = 5
 # prices = [50000, 500, 1500, 20000]
 # hoy=dict(zip(products,prices))
 # print(hoy)
-marks = {
-    "Shifa": 95,
-    "Rahul": 76,
-    "Amina": 88,
-    "David": 84,
-    "Sara": 92
+# marks = {
+#     "Shifa": 95,
+#     "Rahul": 76,
+#     "Amina": 88,
+#     "David": 84,
+#     "Sara": 92
+# }
+# print(sorted(marks,reverse=True))
+products = {
+    "Laptop": 50000,
+    "Mouse": 500,
+    "Keyboard": 1500,
+    "Monitor": 20000,
+    "Phone": 30000
 }
-print(sorted(marks,reverse=True))
+hoy=dict(sorted(products.items(),key=lambda i:i[1]))
+print(hoy)
