@@ -1701,14 +1701,22 @@ num = 5
 # numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1]
 # freequancy={}
 # for i in numbers:
-#     if i in freequancy:
-#         freequancy[i]+=1
-#     else:
-#         freequancy[i]=1
+#     if numbers.count(i)>1:
+#         if i in freequancy :
+#             freequancy[i]+=1
+#         else:
+#             freequancy[i]=1
 # print(freequancy)
 # numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1]
 # freequency={i:numbers.count(i) for i in set(numbers)}
 # print(freequency)
-numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1, 6, 7, 7]
-freequency={i:numbers.count(i) for i in set(numbers) if numbers.count(i)>1}
-print(freequency)
+# numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1, 6, 7, 7]
+# freequency={i:numbers.count(i) for i in set(numbers) if numbers.count(i)>1}
+# print(freequency)
+cart = {
+    "Laptop": 2,
+    "Mouse": 3,
+    "Keyboard": 1,
+    "Monitor": 2
+}
+print(sum(cart.values()))
