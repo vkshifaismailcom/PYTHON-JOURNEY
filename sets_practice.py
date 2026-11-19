@@ -1444,4 +1444,14 @@ num = 5
 # print(len(sets))
 # print(30 in sets)
 # print(100 in sets)
-values = {10, 20, 30, 40}
+# numbers = {10, 20, 30}
+
+# numbers.add(40)
+
+# print(numbers)
+student_ids = {101, 102, 103, 104}
+student_ids.add(105)
+student_ids.update([106,107,108])
+student_ids.add((109,110))
+print(student_ids)
+print(107 in student_ids)
