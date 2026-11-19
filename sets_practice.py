@@ -1530,9 +1530,11 @@ num = 5
 # print(sorted(numbers,reverse=True))
 # print(type(ase))
 # print(numbers.sort())
-original = {10, 20, 30, 40}
-a=original
-b=original.copy()
-a.add(50)
-b.add(60)
-print(a,b,original)
+# original = {10, 20, 30, 40}
+# a=original
+# b=original.copy()
+# a.add(50)
+# b.add(60)
+# print(a,b,original)
+a=frozenset([10, 20, 30, 40])
+print(type(a))
