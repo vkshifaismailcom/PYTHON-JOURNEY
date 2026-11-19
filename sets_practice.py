@@ -1514,7 +1514,8 @@ num = 5
 #     if len(i)>4:
 #         count+=1
 # print(count)
-names = ["shifa", "amina", "rahul", "john", "sara"]
-upper={nam.upper() for nam in names}
-print(upper)
-
+# names = ["shifa", "amina", "rahul", "john", "sara"]
+# upper={nam.upper() for nam in names}
+# print(upper)
+square={num**2 for num in range(1,11)}
+print(square)
