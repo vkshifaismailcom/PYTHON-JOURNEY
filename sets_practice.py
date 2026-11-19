@@ -1781,5 +1781,5 @@ products = {
     "Monitor": 20000,
     "Phone": 30000
 }
-hoy=dict(sorted(products.items(),key=lambda i:i[1]))
+hoy=dict(sorted(products.items(),key=lambda i:i[1],reverse=True))
 print(hoy)
