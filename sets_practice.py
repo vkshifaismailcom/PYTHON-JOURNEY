@@ -1643,5 +1643,9 @@ num = 5
 #     print(k,v)
 # num={num:num**2 for num in range(1,11)}
 # print(num)
-even={num:num**3 for num in range(1,21) if num%2==0}
-print(even)
+# even={num:num**3 for num in range(1,21) if num%2==0}
+# print(even)
+names = ["Shifa", "Amina", "Rahul", "Sara"]
+marks = [95, 88, 76, 92]
+heey=dict(zip(names,marks))
+print(heey)
