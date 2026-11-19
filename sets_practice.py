@@ -1773,4 +1773,4 @@ marks = {
     "David": 84,
     "Sara": 92
 }
-print(sorted(marks))
+print(sorted(marks,reverse=True))
