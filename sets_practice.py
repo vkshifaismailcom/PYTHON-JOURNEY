@@ -1455,10 +1455,27 @@ num = 5
 # student_ids.add((109,110))
 # print(student_ids)
 # print(107 in student_ids)
-courses = {"Python", "Java", "React", "Django", "SQL"}
-courses.remove("Java")
-courses.discard("C++")
-hel=courses.pop()
-print(hel)
-print(courses)
-print(courses.clear())
+# courses = {"Python", "Java", "React", "Django", "SQL"}
+# courses.remove("Java")
+# courses.discard("C++")
+# hel=courses.pop()
+# print(hel)
+# print(courses)
+# print(courses.clear())
+frontend = {"HTML", "CSS", "JavaScript", "React"}
+backend = {"Python", "JavaScript", "Django", "SQL"}
+union=frontend|backend
+print(union)
+print(len(union))
+both=frontend&backend
+print(both)
+print(len(both))
+notinback=frontend-backend
+notinfront=backend-frontend
+print(notinback)
+print(notinfront)
+notcom=frontend^backend
+print(notcom)
+print(len(notcom))
+# A = {10, 20, 30, 40, 50}
+# B = {30, 40, 50, 60, 70}
