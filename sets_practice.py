@@ -1391,7 +1391,14 @@ num = 5
 # list2 = [30, 40, 50, 60, 70]
 # common=[num for num in list1 if num in list2]
 # print(common)
-list1 = [10, 20, 30, 40, 50]
-list2 = [30, 40, 50, 60, 70]
-notin=[num for num in list1 if num not in list2]
-print(notin)
+# list1 = [10, 20, 30, 40, 50]
+# list2 = [30, 40, 50, 60, 70]
+# notin=[num for num in list1 if num not in list2]
+# print(notin)
+nested = [[1, 2], [3, 4], [5, 6]]
+# flat=[]
+# for num in nested:
+#     for i in num:
+#         flat.append(i)
+flat=[i for num in nested for i in num]
+print(flat)
