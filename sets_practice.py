@@ -1538,13 +1538,25 @@ num = 5
 # print(a,b,original)
 # a=frozenset([10, 20, 30, 40])
 # print(type(a))
-numbers = {10, 20, 30, 40, 50}
-print(len(numbers))
-print(max(numbers))
-print(min(numbers))
-print(sum(numbers))
-print(sorted(numbers))
-print(any(num>45 for num in numbers))
-print(all(num>5 for num in numbers))
-for index,value in enumerate(numbers):
-    print(index,value)
+# numbers = {10, 20, 30, 40, 50}
+# print(len(numbers))
+# print(max(numbers))
+# print(min(numbers))
+# print(sum(numbers))
+# print(sorted(numbers))
+# print(any(num>45 for num in numbers))
+# print(all(num>5 for num in numbers))
+# for index,value in enumerate(numbers):
+#     print(index,value)
+python_students = {"Shifa", "Amina", "Rahul", "John"}
+java_students = {"Rahul", "John", "Sara", "David"}
+react_students = {"Shifa", "Sara", "David", "Ali"}
+unique=python_students|java_students|react_students
+python_students|java_students
+python_students-java_students
+java_students^react_students
+python_students&react_students&java_students
+python_students&java_students|python_students&react_students|react_students&java_students
+len(unique)
+python_students&react_students
+upper={nam.upper() for nam in unique}
