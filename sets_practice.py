@@ -1387,7 +1387,11 @@ num = 5
 # # print(list1+list2)
 # list1.extend(list2)
 # print(list1)
+# list1 = [10, 20, 30, 40, 50]
+# list2 = [30, 40, 50, 60, 70]
+# common=[num for num in list1 if num in list2]
+# print(common)
 list1 = [10, 20, 30, 40, 50]
 list2 = [30, 40, 50, 60, 70]
-common=[num for num in list1 if num in list2]
-print(common)
+notin=[num for num in list1 if num not in list2]
+print(notin)
