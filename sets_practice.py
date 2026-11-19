@@ -1428,3 +1428,13 @@ num = 5
 # news.append("black")
 # colors=tuple(news)
 # print(colors)
+prices = (150, 250, 350, 450, 550)
+sum=0
+gr=0
+for i in prices:
+    print(i)
+    sum+=i
+    if i>300:
+        gr+=1
+print(sum)
+print(gr)
