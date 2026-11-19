@@ -1071,7 +1071,7 @@
 # print(sum(numbers))
 # for i in range(2,21,2):
 #     print(i)
-count=0
+# count=0
 # for i in range(2,21):
 #     if i%2==0:
 #         print(i)
@@ -1809,7 +1809,82 @@ num = 5
 #     print("price:",price)
 #     print("quantity:",quantity)
 # student(name="shifa",quantity=2,price=50000) 
-def student(name,department,salary=2500):
-    print(name,department,salary)
-student("sivk","bca")
+# def student(name,department,salary=2500):
+#     print(name,department,salary)
+# student("sivk","bca")
+# def student(name,**args):
+#     print(name,args)
+# student("shifa",nam=100,h=2000,l=3000)
+# def countdown (n):
+#     if n==0:
+#         return
+#     print(n)
+#     countdown(n-1)
+# countdown(5)
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+# def fiboncci(n):
+#     if n==0:
+#         return 0
+#     if n==1:
+#         return 1
+#     return fiboncci(n-1)+fiboncci(n-2)
+# print(fiboncci(6))
 
+# def coundown(n):
+#     if n==0:
+#         return
+#     print(n)
+#     coundown(n-1)
+# coundown(7)
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(6))
+# def number(n):
+#     if n==0:
+#         return 0
+#     return n+number(n-1)
+# print(number(10))
+# def number(n):
+#     if n==0:
+#         return 0
+#     return n+(number(n-1))
+# print(number(10))
+# def power(n,m):
+#     if m==0:
+#         return 1
+#     return n*power(n,m-1)
+# print(power(3,5))
+# def reverse(text):
+#     if text=="":
+#         return ""
+#     return reverse(text[1::])+text[0]
+# print(reverse("hello"))
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(6))
+# def fibonci(n):
+#     if n==0:
+#         return 0
+#     if n==1:
+#         return 1
+#     return fibonci(n-1)+fibonci(n-2)
+# print(fibonci(6))
+# add=lambda a,b:a+b
+# print(add(10,20))
+# check=lambda a:"even" if a%2==0 else "odd"
+# print(check(1))
+sq=lambda x:x**2
+print(sq(8))
