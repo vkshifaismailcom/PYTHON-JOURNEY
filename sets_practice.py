@@ -1405,10 +1405,13 @@ num = 5
 # numbers = [10, 20, 30, 40, 50]
 # numbers=numbers[-1:]+numbers[0:4]
 # print(numbers)
-list1 = [10, 20, 20, 30, 40, 40, 50]
-list2 = [20, 20, 40, 50, 60]
-comn=[]
-for num in list2:
-    if num in list1 and num not in comn:
-        comn.append(num)
-print(comn)
+# list1 = [10, 20, 20, 30, 40, 40, 50]
+# list2 = [20, 20, 40, 50, 60]
+# comn=[]
+# for num in list2:
+#     if num in list1 and num not in comn:
+#         comn.append(num)
+# print(comn)
+fruits = ("apple", "banana", "apple", "orange", "apple", "banana")
+print(fruits.count("apple"))
+print(fruits.count("banana"))
