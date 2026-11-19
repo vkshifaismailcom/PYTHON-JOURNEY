@@ -1536,5 +1536,15 @@ num = 5
 # a.add(50)
 # b.add(60)
 # print(a,b,original)
-a=frozenset([10, 20, 30, 40])
-print(type(a))
+# a=frozenset([10, 20, 30, 40])
+# print(type(a))
+numbers = {10, 20, 30, 40, 50}
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
+print(sorted(numbers))
+print(any(num>45 for num in numbers))
+print(all(num>5 for num in numbers))
+for index,value in enumerate(numbers):
+    print(index,value)
