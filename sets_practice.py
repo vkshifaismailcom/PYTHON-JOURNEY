@@ -1605,13 +1605,21 @@ num = 5
 #     "age":21
 # })
 # print(student)
-products = {
-    "Laptop": 50000,
-    "Phone": 20000,
-    "Tablet": 15000
+# products = {
+#     "Laptop": 50000,
+#     "Phone": 20000,
+#     "Tablet": 15000
+# }
+# products["Laptop"]=55000
+# products.update({
+#     "sivk":25000
+# })
+# print(products)
+student = {
+    "name": "Shifa",
+    "age": 18,
+    "course": "BCA",
+    "city": "Kozhikode"
 }
-products["Laptop"]=55000
-products.update({
-    "sivk":25000
-})
-print(products)
+remove=student.pop("city")
+print(remove)
