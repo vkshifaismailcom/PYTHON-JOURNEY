@@ -1585,13 +1585,23 @@ num = 5
 # "book":100
 # }
 # print(products)
-employee = {
-    "name": "Rahul",
-    "age": 25,
-    "department": "IT",
-    "salary": 30000
+# employee = {
+#     "name": "Rahul",
+#     "age": 25,
+#     "department": "IT",
+#     "salary": 30000
+# }
+# print(employee["name"])
+# print(employee["department"])
+# print(employee["salary"])
+# print(employee.get("city","not available"))
+student = {
+    "name": "Amina",
+    "age": 20,
+    "course": "BBA"
 }
-print(employee["name"])
-print(employee["department"])
-print(employee["salary"])
-print(employee.get("city","not available"))
+student["city"]="kozhikkode"
+student.update({
+    "age":21
+})
+print(student)
