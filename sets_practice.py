@@ -1477,13 +1477,30 @@ num = 5
 # notcom=frontend^backend
 # print(notcom)
 # print(len(notcom))
-a = {10, 20, 30, 40, 50}
-b= {30, 40, 50, 60, 70}
-ab=a.copy()
-ab.update(b)
-aa=a.copy()
-aa.intersection_update(b)
-aaa=a.copy()
-aaa.difference_update(b)
-aaaa=a.copy()
-aaaa.symmetric_difference_update(b)
+# a = {10, 20, 30, 40, 50}
+# b= {30, 40, 50, 60, 70}
+# ab=a.copy()
+# ab.update(b)
+# aa=a.copy()
+# aa.intersection_update(b)
+# aaa=a.copy()
+# aaa.difference_update(b)
+# aaaa=a.copy()
+# aaaa.symmetric_difference_update(b)
+A = {10, 20, 30}
+B = {10, 20, 30, 40, 50}
+C = {60, 70, 80}
+D = {10, 20, 30}
+E = {10, 20}
+print(A==D)
+print(A==B)
+print(A==E)
+print(A<=B)
+print(E<=A)
+print(A<=D)
+print(B>=A)
+print(A>=E)
+print(D>=A)
+print(A.isdisjoint(C))
+print(A.isdisjoint(B))
+
