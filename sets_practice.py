@@ -1735,14 +1735,26 @@ num = 5
 # print(hell)
 # hell={pro:pri for pro,pri in students.items() if pri>80}
 # print(hell)
-student = {
+# student = {
+#     "name": "Shifa",
+#     "age": 18
+# }
+
+# academic = {
+#     "course": "BCA",
+#     "college": "Jain University"
+# }
+# hey={**student,**academic}
+# print(hey)
+first = {
     "name": "Shifa",
-    "age": 18
+    "age": 18,
+    "city": "Kozhikode"
 }
 
-academic = {
-    "course": "BCA",
-    "college": "Jain University"
+second = {
+    "age": 19,
+    "course": "BCA"
 }
-hey={**student,**academic}
-print(hey)
+hoy=second|first
+print(hoy)
