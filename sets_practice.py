@@ -1645,7 +1645,16 @@ num = 5
 # print(num)
 # even={num:num**3 for num in range(1,21) if num%2==0}
 # print(even)
-names = ["Shifa", "Amina", "Rahul", "Sara"]
-marks = [95, 88, 76, 92]
-heey=dict(zip(names,marks))
-print(heey)
+# names = ["Shifa", "Amina", "Rahul", "Sara"]
+# marks = [95, 88, 76, 92]
+# heey=dict(zip(names,marks))
+# print(heey)
+products = {
+    "Laptop": 50000,
+    "Mouse": 500,
+    "Keyboard": 1500,
+    "Phone": 20000,
+    "Pen": 20
+}
+gr={pro:pri for pro,pri in products.items()if pri>1000 }
+print(gr)
