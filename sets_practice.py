@@ -1462,20 +1462,28 @@ num = 5
 # print(hel)
 # print(courses)
 # print(courses.clear())
-frontend = {"HTML", "CSS", "JavaScript", "React"}
-backend = {"Python", "JavaScript", "Django", "SQL"}
-union=frontend|backend
-print(union)
-print(len(union))
-both=frontend&backend
-print(both)
-print(len(both))
-notinback=frontend-backend
-notinfront=backend-frontend
-print(notinback)
-print(notinfront)
-notcom=frontend^backend
-print(notcom)
-print(len(notcom))
-# A = {10, 20, 30, 40, 50}
-# B = {30, 40, 50, 60, 70}
+# frontend = {"HTML", "CSS", "JavaScript", "React"}
+# backend = {"Python", "JavaScript", "Django", "SQL"}
+# union=frontend|backend
+# print(union)
+# print(len(union))
+# both=frontend&backend
+# print(both)
+# print(len(both))
+# notinback=frontend-backend
+# notinfront=backend-frontend
+# print(notinback)
+# print(notinfront)
+# notcom=frontend^backend
+# print(notcom)
+# print(len(notcom))
+a = {10, 20, 30, 40, 50}
+b= {30, 40, 50, 60, 70}
+ab=a.copy()
+ab.update(b)
+aa=a.copy()
+aa.intersection_update(b)
+aaa=a.copy()
+aaa.difference_update(b)
+aaaa=a.copy()
+aaaa.symmetric_difference_update(b)
