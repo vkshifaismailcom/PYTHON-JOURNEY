@@ -1791,11 +1791,17 @@ num = 5
 # subjects = ["Python", "Java", "HTML", "CSS"]
 # students=dict.fromkeys(subjects,0)
 # print(students)
+# def student(name,age,course):
+#     print(f"name: {name}")
+#     print(f"age : {age}")
+#     print(f"course: {course}")
+# student("minshan",25,"bca")
+# def total(n1,n2,n3):
+#     print(n1+n2+n3)
+# total(20,30,40)
 def student(name,age,course):
-    print(f"name: {name}")
-    print(f"age : {age}")
-    print(f"course: {course}")
-student("minshan",25,"bca")
-def total(n1,n2,n3):
-    print(n1+n2+n3)
-total(20,30,40)
+    print("name:",name)
+    print("age:",age)
+    print("course:",course)
+student("shifa",18,"BCA")
+
