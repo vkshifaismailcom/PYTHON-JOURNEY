@@ -1517,5 +1517,7 @@ num = 5
 # names = ["shifa", "amina", "rahul", "john", "sara"]
 # upper={nam.upper() for nam in names}
 # print(upper)
-square={num**2 for num in range(1,11)}
-print(square)
+# square={num**2 for num in range(1,11)}
+# print(square)
+even={num for num in range(1,21) if num%2==0}
+print(even)
