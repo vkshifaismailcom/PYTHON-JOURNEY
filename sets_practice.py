@@ -1632,12 +1632,14 @@ num = 5
 
 # a["name"]="SIVK"
 # print(a,student)
-employees = {
-    "Rahul": 25000,
-    "Amina": 30000,
-    "John": 28000,
-    "Sara": 35000,
-    "David": 32000
-}
-for k,v in employees.items():
-    print(k,v)
+# employees = {
+#     "Rahul": 25000,
+#     "Amina": 30000,
+#     "John": 28000,
+#     "Sara": 35000,
+#     "David": 32000
+# }
+# for k,v in employees.items():
+#     print(k,v)
+num={num:num**2 for num in range(1,11)}
+print(num)
