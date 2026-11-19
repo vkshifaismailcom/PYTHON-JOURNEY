@@ -1746,15 +1746,19 @@ num = 5
 # }
 # hey={**student,**academic}
 # print(hey)
-first = {
-    "name": "Shifa",
-    "age": 18,
-    "city": "Kozhikode"
-}
+# first = {
+#     "name": "Shifa",
+#     "age": 18,
+#     "city": "Kozhikode"
+# }
 
-second = {
-    "age": 19,
-    "course": "BCA"
-}
-hoy=second|first
-print(hoy)
+# second = {
+#     "age": 19,
+#     "course": "BCA"
+# }
+# hoy=second|first
+# print(hoy)
+names = ["Shifa", "Amina", "Rahul", "Sara"]
+marks = [95, 88, 76, 92]
+hey=dict(zip(names,marks))
+print(hey)
