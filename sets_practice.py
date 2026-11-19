@@ -1720,18 +1720,29 @@ num = 5
 #     "Monitor": 2
 # }
 # print(sum(cart.values()))
-students = {
-    "Shifa": 95,
-    "Amina": 88,
-    "Rahul": 76,
-    "Sara": 92,
-    "John": 65,
-    "David": 84
-}
-hell={}
-for a,i in students.items():
-    if i>80:
-        hell[a]=i
-print(hell)
+# students = {
+#     "Shifa": 95,
+#     "Amina": 88,
+#     "Rahul": 76,
+#     "Sara": 92,
+#     "John": 65,
+#     "David": 84
+# }
+# hell={}
+# for a,i in students.items():
+#     if i>80:
+#         hell[a]=i
+# print(hell)
 # hell={pro:pri for pro,pri in students.items() if pri>80}
 # print(hell)
+student = {
+    "name": "Shifa",
+    "age": 18
+}
+
+academic = {
+    "course": "BCA",
+    "college": "Jain University"
+}
+hey={**student,**academic}
+print(hey)
