@@ -1395,10 +1395,13 @@ num = 5
 # list2 = [30, 40, 50, 60, 70]
 # notin=[num for num in list1 if num not in list2]
 # print(notin)
-nested = [[1, 2], [3, 4], [5, 6]]
-# flat=[]
-# for num in nested:
-#     for i in num:
-#         flat.append(i)
-flat=[i for num in nested for i in num]
-print(flat)
+# nested = [[1, 2], [3, 4], [5, 6]]
+# # flat=[]
+# # for num in nested:
+# #     for i in num:
+# #         flat.append(i)
+# flat=[i for num in nested for i in num]
+# print(flat)
+numbers = [10, 20, 30, 40, 50]
+numbers=numbers[-1:]+numbers[0:4]
+print(numbers)
