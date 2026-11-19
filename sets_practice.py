@@ -1698,11 +1698,14 @@ num = 5
 # hell=sentence.split(" ")
 # freequency={i:hell.count(i) for i in set(hell)}
 # print(freequency)
+# numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1]
+# freequancy={}
+# for i in numbers:
+#     if i in freequancy:
+#         freequancy[i]+=1
+#     else:
+#         freequancy[i]=1
+# print(freequancy)
 numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1]
-freequancy={}
-for i in numbers:
-    if i in freequancy:
-        freequancy[i]+=1
-    else:
-        freequancy[i]=1
-print(freequancy)
+freequency={i:numbers.count(i) for i in set(numbers)}
+print(freequency)
