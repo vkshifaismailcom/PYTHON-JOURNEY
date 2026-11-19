@@ -1566,11 +1566,16 @@ num = 5
 #     if i in numbers:
 #         num.append(i)
 # print(num)
-fruits = ["apple", "banana", "apple", "orange", "banana", "apple"]
-freequency={}
-for fruit in fruits:
-    if fruit in freequency:
-        freequency[fruit]+=1
-    else:
-        freequency[fruit]=1
-print(freequency)
+# fruits = ["apple", "banana", "apple", "orange", "banana", "apple"]
+# freequency={}
+# for fruit in fruits:
+#     if fruit in freequency:
+#         freequency[fruit]+=1
+#     else:
+#         freequency[fruit]=1
+# print(freequency)
+student={"Name": "Shifa"
+,"Age": 18
+,"Course": "BCA"
+,"College": "Jain University"}
+print(student)
