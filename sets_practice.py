@@ -1658,13 +1658,29 @@ num = 5
 # }
 # gr={pro:pri for pro,pri in products.items()if pri>1000 }
 # print(gr)
-students = {}
-students.update({
-    "sara":{"age":18,"marks":90},
-    "rahul":{"age":20,"marks":85},
-    "amina":{"age":19,"marks":95}
-})
-print(students["sara"]["marks"])
-students["amina"]["marks"]=98
-students.update({"sivk":{"age":19,"marks":95}})
-print(students)
+# students = {}
+# students.update({
+#     "sara":{"age":18,"marks":90},
+#     "rahul":{"age":20,"marks":85},
+#     "amina":{"age":19,"marks":95}
+# })
+# print(students["sara"]["marks"])
+# students["amina"]["marks"]=98
+# students.update({"sivk":{"age":19,"marks":95}})
+# print(students)
+marks = {
+    "Shifa": 95,
+    "Amina": 88,
+    "Rahul": 76,
+    "Sara": 92,
+    "John": 85
+}
+lens=len(marks)
+sums=sum(marks.values())
+print(lens)
+print(max(marks.values()))
+print(min(marks.values()))
+print(sums)
+print(sorted(marks.keys()))
+print(max(marks,key=marks.get))
+print(sums/lens)
