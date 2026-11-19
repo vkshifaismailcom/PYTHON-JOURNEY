@@ -1886,5 +1886,7 @@ num = 5
 # print(add(10,20))
 # check=lambda a:"even" if a%2==0 else "odd"
 # print(check(1))
-sq=lambda x:x**2
-print(sq(8))
+# sq=lambda x:x**2
+# print(sq(8))
+s=lambda x,m:x*m
+print(s(12,5))
