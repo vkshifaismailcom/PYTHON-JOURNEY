@@ -1595,13 +1595,23 @@ num = 5
 # print(employee["department"])
 # print(employee["salary"])
 # print(employee.get("city","not available"))
-student = {
-    "name": "Amina",
-    "age": 20,
-    "course": "BBA"
+# student = {
+#     "name": "Amina",
+#     "age": 20,
+#     "course": "BBA"
+# }
+# student["city"]="kozhikkode"
+# student.update({
+#     "age":21
+# })
+# print(student)
+products = {
+    "Laptop": 50000,
+    "Phone": 20000,
+    "Tablet": 15000
 }
-student["city"]="kozhikkode"
-student.update({
-    "age":21
+products["Laptop"]=55000
+products.update({
+    "sivk":25000
 })
-print(student)
+print(products)
