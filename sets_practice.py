@@ -1621,5 +1621,14 @@ student = {
     "course": "BCA",
     "city": "Kozhikode"
 }
-remove=student.pop("city")
+remove=student.popitem()
+a=student.copy()
 print(remove)
+print(student)
+student.clear()
+print(a.keys())
+print(a.values())
+print(a.items())
+
+a["name"]="SIVK"
+print(a,student)
