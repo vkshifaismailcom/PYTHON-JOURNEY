@@ -1713,10 +1713,25 @@ num = 5
 # numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1, 6, 7, 7]
 # freequency={i:numbers.count(i) for i in set(numbers) if numbers.count(i)>1}
 # print(freequency)
-cart = {
-    "Laptop": 2,
-    "Mouse": 3,
-    "Keyboard": 1,
-    "Monitor": 2
+# cart = {
+#     "Laptop": 2,
+#     "Mouse": 3,
+#     "Keyboard": 1,
+#     "Monitor": 2
+# }
+# print(sum(cart.values()))
+students = {
+    "Shifa": 95,
+    "Amina": 88,
+    "Rahul": 76,
+    "Sara": 92,
+    "John": 65,
+    "David": 84
 }
-print(sum(cart.values()))
+hell={}
+for a,i in students.items():
+    if i>80:
+        hell[a]=i
+print(hell)
+# hell={pro:pri for pro,pri in students.items() if pri>80}
+# print(hell)
