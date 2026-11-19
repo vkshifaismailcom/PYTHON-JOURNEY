@@ -1382,8 +1382,15 @@ num = 5
 #     if i not in item:
 #         item.append(i)
 # print(item)
-list1 = [10, 20, 30]
-list2 = [40, 50, 60]
-# print(list1+list2)
-list1.extend(list2)
-print(list1)
+# list1 = [10, 20, 30]
+# list2 = [40, 50, 60]
+# # print(list1+list2)
+# list1.extend(list2)
+# print(list1)
+list1 = [10, 20, 30, 40, 50]
+list2 = [30, 40, 50, 60, 70]
+common=[]
+for num in list1:
+    if num in list2:
+        common.append(num)
+print(common)
