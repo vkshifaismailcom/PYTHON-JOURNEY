@@ -1909,3 +1909,57 @@ num = 5
 # ]
 # mar=list(sorted(students,key=lambda x:x[1]))
 # print(mar)
+# from functools import reduce
+# numbers = [10, 20, 30, 40, 50]
+# num=reduce(lambda x,y:x*y,numbers)
+# print(num)
+# numbers = [3, 6, 9, 12, 15]
+# num=list(map(lambda x:x**3,numbers))
+# print(num)
+# numbers = [12, 25, 8, 36, 45, 7, 50, 18]
+# num=list(filter(lambda x:x%3==0,numbers))
+# print(numbers)
+# students = [
+#     ("Shifa", 85),
+#     ("Amina", 95),
+#     ("Rahul", 70),
+#     ("Sara", 90)
+# ]
+# stu=list(sorted(students,key=lambda x:x[1]))
+# print(stu)
+# from functools import reduce
+# numbers = [5, 10, 15, 20, 25]
+# num=reduce(lambda x,y:x+y,numbers)
+# print(num)
+# import student
+# print(student.add(10,5))
+# print(student.subtract(10,5))
+# import random
+# num=[1,3,4,5,6]
+# random.shuffle(num)
+# print(num)
+# try:
+#     num=int(input("num : "))
+#     result=7/num
+#     print(result)
+# except ZeroDivisionError:
+#     print("it cant divide with zero")
+# except ValueError:
+#     print("enter a valid number")
+# else:
+#     print("sucess")
+# finally:
+#     print("you are here")
+def divi(a,b):
+    try:
+        result=a/b
+        
+    except ZeroDivisionError:
+        print( "error ")
+    else:
+        print("hello no problem at all")
+        return result
+        
+    finally:
+        print("all phases passed succesfully")
+print(divi(2,1))
