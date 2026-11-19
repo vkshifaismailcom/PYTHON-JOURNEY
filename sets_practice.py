@@ -1799,9 +1799,13 @@ num = 5
 # def total(n1,n2,n3):
 #     print(n1+n2+n3)
 # total(20,30,40)
-def student(name,age,course):
+# def student(name,age,course):
+#     print("name:",name)
+#     print("age:",age)
+#     print("course:",course)
+# student("shifa",18,"BCA")
+def student(name,price,quantity):
     print("name:",name)
-    print("age:",age)
-    print("course:",course)
-student("shifa",18,"BCA")
-
+    print("price:",price)
+    print("quantity:",quantity)
+student(name="shifa",quantity=2,price=50000) 
