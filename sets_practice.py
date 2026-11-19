@@ -1615,20 +1615,29 @@ num = 5
 #     "sivk":25000
 # })
 # print(products)
-student = {
-    "name": "Shifa",
-    "age": 18,
-    "course": "BCA",
-    "city": "Kozhikode"
-}
-remove=student.popitem()
-a=student.copy()
-print(remove)
-print(student)
-student.clear()
-print(a.keys())
-print(a.values())
-print(a.items())
+# student = {
+#     "name": "Shifa",
+#     "age": 18,
+#     "course": "BCA",
+#     "city": "Kozhikode"
+# }
+# remove=student.popitem()
+# a=student.copy()
+# print(remove)
+# print(student)
+# student.clear()
+# print(a.keys())
+# print(a.values())
+# print(a.items())
 
-a["name"]="SIVK"
-print(a,student)
+# a["name"]="SIVK"
+# print(a,student)
+employees = {
+    "Rahul": 25000,
+    "Amina": 30000,
+    "John": 28000,
+    "Sara": 35000,
+    "David": 32000
+}
+for k,v in employees.items():
+    print(k,v)
