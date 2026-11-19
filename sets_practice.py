@@ -1684,13 +1684,17 @@ num = 5
 # print(sorted(marks.keys()))
 # print(max(marks,key=marks.get))
 # print(sums/lens)
-text = "banana"
-freequency={}
-for i in text:
-    if i in freequency:
-        freequency[i]+=1
-    else:
-        freequency[i]=1
-print(freequency)
-freequency={i:text.count(i) for i in set(text)}
+# text = "banana"
+# freequency={}
+# for i in text:
+#     if i in freequency:
+#         freequency[i]+=1
+#     else:
+#         freequency[i]=1
+# print(freequency)
+# freequency={i:text.count(i) for i in set(text)}
+# print(freequency)
+sentence = "python is easy and python is powerful"
+hell=sentence.split(" ")
+freequency={i:hell.count(i) for i in set(hell)}
 print(freequency)
