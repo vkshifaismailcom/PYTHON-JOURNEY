@@ -1487,20 +1487,31 @@ num = 5
 # aaa.difference_update(b)
 # aaaa=a.copy()
 # aaaa.symmetric_difference_update(b)
-A = {10, 20, 30}
-B = {10, 20, 30, 40, 50}
-C = {60, 70, 80}
-D = {10, 20, 30}
-E = {10, 20}
-print(A==D)
-print(A==B)
-print(A==E)
-print(A<=B)
-print(E<=A)
-print(A<=D)
-print(B>=A)
-print(A>=E)
-print(D>=A)
-print(A.isdisjoint(C))
-print(A.isdisjoint(B))
+# A = {10, 20, 30}
+# B = {10, 20, 30, 40, 50}
+# C = {60, 70, 80}
+# D = {10, 20, 30}
+# E = {10, 20}
+# print(A==D)
+# print(A==B)
+# print(A==E)
+# print(A<=B)
+# print(E<=A)
+# print(A<=D)
+# print(B>=A)
+# print(A>=E)
+# print(D>=A)
+# print(A.isdisjoint(C))
+# print(A.isdisjoint(B))
+employees = {"Shifa", "Amina", "Rahul", "John", "Sara"}
+"Shifa"in employees
+"David" in employees
+count=0
+for i in employees:
+    print(i)
+    if i.startswith("S"):
+        print(i)
+    if len(i)>4:
+        count+=1
+print(count)
 
