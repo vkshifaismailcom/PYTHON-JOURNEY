@@ -1574,8 +1574,24 @@ num = 5
 #     else:
 #         freequency[fruit]=1
 # print(freequency)
-student={"Name": "Shifa"
-,"Age": 18
-,"Course": "BCA"
-,"College": "Jain University"}
-print(student)
+# student={"Name": "Shifa"
+# ,"Age": 18
+# ,"Course": "BCA"
+# ,"College": "Jain University"}
+# print(student)
+# products={
+# "pen":10,
+# "pencil":20,
+# "book":100
+# }
+# print(products)
+employee = {
+    "name": "Rahul",
+    "age": 25,
+    "department": "IT",
+    "salary": 30000
+}
+print(employee["name"])
+print(employee["department"])
+print(employee["salary"])
+print(employee.get("city","not available"))
