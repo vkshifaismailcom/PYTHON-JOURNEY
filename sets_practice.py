@@ -1758,7 +1758,11 @@ num = 5
 # }
 # hoy=second|first
 # print(hoy)
-names = ["Shifa", "Amina", "Rahul", "Sara"]
-marks = [95, 88, 76, 92]
-hey=dict(zip(names,marks))
-print(hey)
+# names = ["Shifa", "Amina", "Rahul", "Sara"]
+# marks = [95, 88, 76, 92]
+# hey=dict(zip(names,marks))
+# print(hey)
+products = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+prices = [50000, 500, 1500, 20000]
+hoy=dict(zip(products,prices))
+print(hoy)
