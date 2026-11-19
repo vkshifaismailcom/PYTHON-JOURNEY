@@ -1503,15 +1503,18 @@ num = 5
 # print(D>=A)
 # print(A.isdisjoint(C))
 # print(A.isdisjoint(B))
-employees = {"Shifa", "Amina", "Rahul", "John", "Sara"}
-"Shifa"in employees
-"David" in employees
-count=0
-for i in employees:
-    print(i)
-    if i.startswith("S"):
-        print(i)
-    if len(i)>4:
-        count+=1
-print(count)
+# employees = {"Shifa", "Amina", "Rahul", "John", "Sara"}
+# "Shifa"in employees
+# "David" in employees
+# count=0
+# for i in employees:
+#     print(i)
+#     if i.startswith("S"):
+#         print(i)
+#     if len(i)>4:
+#         count+=1
+# print(count)
+names = ["shifa", "amina", "rahul", "john", "sara"]
+upper={nam.upper() for nam in names}
+print(upper)
 
