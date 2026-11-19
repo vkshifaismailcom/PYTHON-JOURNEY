@@ -1449,9 +1449,16 @@ num = 5
 # numbers.add(40)
 
 # print(numbers)
-student_ids = {101, 102, 103, 104}
-student_ids.add(105)
-student_ids.update([106,107,108])
-student_ids.add((109,110))
-print(student_ids)
-print(107 in student_ids)
+# student_ids = {101, 102, 103, 104}
+# student_ids.add(105)
+# student_ids.update([106,107,108])
+# student_ids.add((109,110))
+# print(student_ids)
+# print(107 in student_ids)
+courses = {"Python", "Java", "React", "Django", "SQL"}
+courses.remove("Java")
+courses.discard("C++")
+hel=courses.pop()
+print(hel)
+print(courses)
+print(courses.clear())
