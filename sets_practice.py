@@ -1519,5 +1519,8 @@ num = 5
 # print(upper)
 # square={num**2 for num in range(1,11)}
 # print(square)
-even={num for num in range(1,21) if num%2==0}
-print(even)
+# even={num for num in range(1,21) if num%2==0}
+# print(even)
+numbers = [10, 15, 20, 25, 30, 35, 40, 45, 50]
+gr={num for num in numbers if num>25 and num%5==0}
+print(gr)
