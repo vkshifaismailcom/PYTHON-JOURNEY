@@ -1694,7 +1694,15 @@ num = 5
 # print(freequency)
 # freequency={i:text.count(i) for i in set(text)}
 # print(freequency)
-sentence = "python is easy and python is powerful"
-hell=sentence.split(" ")
-freequency={i:hell.count(i) for i in set(hell)}
-print(freequency)
+# sentence = "python is easy and python is powerful"
+# hell=sentence.split(" ")
+# freequency={i:hell.count(i) for i in set(hell)}
+# print(freequency)
+numbers = [1, 2, 3, 2, 4, 1, 2, 5, 3, 1]
+freequancy={}
+for i in numbers:
+    if i in freequancy:
+        freequancy[i]+=1
+    else:
+        freequancy[i]=1
+print(freequancy)
