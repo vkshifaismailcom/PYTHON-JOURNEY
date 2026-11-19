@@ -1438,9 +1438,10 @@ num = 5
 #         gr+=1
 # print(sum)
 # print(gr)
-numbers = [10, 20, 10, 30, 20, 40, 50, 30]
-sets=set(numbers)
-print(sets)
-print(len(sets))
-print(30 in sets)
-print(100 in sets)
+# numbers = [10, 20, 10, 30, 20, 40, 50, 30]
+# sets=set(numbers)
+# print(sets)
+# print(len(sets))
+# print(30 in sets)
+# print(100 in sets)
+values = {10, 20, 30, 40}
