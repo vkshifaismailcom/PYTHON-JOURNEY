@@ -1774,12 +1774,28 @@ num = 5
 #     "Sara": 92
 # }
 # print(sorted(marks,reverse=True))
-products = {
-    "Laptop": 50000,
-    "Mouse": 500,
-    "Keyboard": 1500,
-    "Monitor": 20000,
-    "Phone": 30000
-}
-hoy=dict(sorted(products.items(),key=lambda i:i[1],reverse=True))
-print(hoy)
+# products = {
+#     "Laptop": 50000,
+#     "Mouse": 500,
+#     "Keyboard": 1500,
+#     "Monitor": 20000,
+#     "Phone": 30000
+# }
+# hoy=dict(sorted(products.items(),key=lambda i:i[1],reverse=True))
+# print(hoy)
+# names = ["Shifa", "Amina", "Rahul"]
+
+# students = dict.fromkeys(names, 0)
+
+# print(students)
+# subjects = ["Python", "Java", "HTML", "CSS"]
+# students=dict.fromkeys(subjects,0)
+# print(students)
+def student(name,age,course):
+    print(f"name: {name}")
+    print(f"age : {age}")
+    print(f"course: {course}")
+student("minshan",25,"bca")
+def total(n1,n2,n3):
+    print(n1+n2+n3)
+total(20,30,40)
