@@ -1367,6 +1367,18 @@ num = 5
 # numbers = [12, 45, 67, 23, 89, 34, 90]
 # gr=[num for num in numbers if num>50]
 # print(gr)
-names = ["shifa", "amina", "sara", "zoya"]
-upp=[name.upper()  for name in names]
-print(upp)
+# names = ["shifa", "amina", "sara", "zoya"]
+# upp=[name.upper()  for name in names]
+# print(upp)
+# numbers = [10, 20, 10, 30, 20, 40, 30, 50]
+# nums=[]
+# for i in numbers:
+#     if i not in nums:
+#         nums.append(i)
+# print(nums)
+items = ["apple", "banana", "apple", "orange", "banana"]
+item=[]
+for i in items:
+    if i not in item:
+        item.append(i)
+print(item)
