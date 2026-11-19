@@ -1548,15 +1548,29 @@ num = 5
 # print(all(num>5 for num in numbers))
 # for index,value in enumerate(numbers):
 #     print(index,value)
-python_students = {"Shifa", "Amina", "Rahul", "John"}
-java_students = {"Rahul", "John", "Sara", "David"}
-react_students = {"Shifa", "Sara", "David", "Ali"}
-unique=python_students|java_students|react_students
-python_students|java_students
-python_students-java_students
-java_students^react_students
-python_students&react_students&java_students
-python_students&java_students|python_students&react_students|react_students&java_students
-len(unique)
-python_students&react_students
-upper={nam.upper() for nam in unique}
+# python_students = {"Shifa", "Amina", "Rahul", "John"}
+# java_students = {"Rahul", "John", "Sara", "David"}
+# react_students = {"Shifa", "Sara", "David", "Ali"}
+# unique=python_students|java_students|react_students
+# python_students|java_students
+# python_students-java_students
+# java_students^react_students
+# python_students&react_students&java_students
+# python_students&java_students|python_students&react_students|react_students&java_students
+# len(unique)
+# python_students&react_students
+# upper={nam.upper() for nam in unique}
+# numbers = [45, 12, 89, 3, 67, 24, 91, 8, 56, 32, 15, 78]
+# num=[]
+# for i in range(min(numbers),max(numbers)+1,-1):
+#     if i in numbers:
+#         num.append(i)
+# print(num)
+fruits = ["apple", "banana", "apple", "orange", "banana", "apple"]
+freequency={}
+for fruit in fruits:
+    if fruit in freequency:
+        freequency[fruit]+=1
+    else:
+        freequency[fruit]=1
+print(freequency)
