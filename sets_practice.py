@@ -1524,9 +1524,15 @@ num = 5
 # numbers = [10, 15, 20, 25, 30, 35, 40, 45, 50]
 # gr={num for num in numbers if num>25 and num%5==0}
 # print(gr)
-numbers = {45, 12, 89, 23, 5, 67, 34}
-ase=sorted(numbers)
-print(ase)
-print(sorted(numbers,reverse=True))
-print(type(ase))
-print(numbers.sort())
+# numbers = {45, 12, 89, 23, 5, 67, 34}
+# ase=sorted(numbers)
+# print(ase)
+# print(sorted(numbers,reverse=True))
+# print(type(ase))
+# print(numbers.sort())
+original = {10, 20, 30, 40}
+a=original
+b=original.copy()
+a.add(50)
+b.add(60)
+print(a,b,original)
