@@ -1641,5 +1641,7 @@ num = 5
 # }
 # for k,v in employees.items():
 #     print(k,v)
-num={num:num**2 for num in range(1,11)}
-print(num)
+# num={num:num**2 for num in range(1,11)}
+# print(num)
+even={num:num**3 for num in range(1,21) if num%2==0}
+print(even)
