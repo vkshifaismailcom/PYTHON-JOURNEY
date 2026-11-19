@@ -1762,7 +1762,15 @@ num = 5
 # marks = [95, 88, 76, 92]
 # hey=dict(zip(names,marks))
 # print(hey)
-products = ["Laptop", "Mouse", "Keyboard", "Monitor"]
-prices = [50000, 500, 1500, 20000]
-hoy=dict(zip(products,prices))
-print(hoy)
+# products = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+# prices = [50000, 500, 1500, 20000]
+# hoy=dict(zip(products,prices))
+# print(hoy)
+marks = {
+    "Shifa": 95,
+    "Rahul": 76,
+    "Amina": 88,
+    "David": 84,
+    "Sara": 92
+}
+print(sorted(marks))
