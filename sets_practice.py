@@ -1668,19 +1668,29 @@ num = 5
 # students["amina"]["marks"]=98
 # students.update({"sivk":{"age":19,"marks":95}})
 # print(students)
-marks = {
-    "Shifa": 95,
-    "Amina": 88,
-    "Rahul": 76,
-    "Sara": 92,
-    "John": 85
-}
-lens=len(marks)
-sums=sum(marks.values())
-print(lens)
-print(max(marks.values()))
-print(min(marks.values()))
-print(sums)
-print(sorted(marks.keys()))
-print(max(marks,key=marks.get))
-print(sums/lens)
+# marks = {
+#     "Shifa": 95,
+#     "Amina": 88,
+#     "Rahul": 76,
+#     "Sara": 92,
+#     "John": 85
+# }
+# lens=len(marks)
+# sums=sum(marks.values())
+# print(lens)
+# print(max(marks.values()))
+# print(min(marks.values()))
+# print(sums)
+# print(sorted(marks.keys()))
+# print(max(marks,key=marks.get))
+# print(sums/lens)
+text = "banana"
+freequency={}
+for i in text:
+    if i in freequency:
+        freequency[i]+=1
+    else:
+        freequency[i]=1
+print(freequency)
+freequency={i:text.count(i) for i in set(text)}
+print(freequency)
