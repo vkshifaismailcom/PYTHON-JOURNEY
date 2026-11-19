@@ -1402,6 +1402,13 @@ num = 5
 # #         flat.append(i)
 # flat=[i for num in nested for i in num]
 # print(flat)
-numbers = [10, 20, 30, 40, 50]
-numbers=numbers[-1:]+numbers[0:4]
-print(numbers)
+# numbers = [10, 20, 30, 40, 50]
+# numbers=numbers[-1:]+numbers[0:4]
+# print(numbers)
+list1 = [10, 20, 20, 30, 40, 40, 50]
+list2 = [20, 20, 40, 50, 60]
+comn=[]
+for num in list2:
+    if num in list1 and num not in comn:
+        comn.append(num)
+print(comn)
