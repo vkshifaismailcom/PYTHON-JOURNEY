@@ -1890,5 +1890,14 @@ num = 5
 # print(sq(8))
 # s=lambda x,m:x*m
 # print(s(12,5))
-neg=lambda x:"positive" if x>0 else "negative" if x<0 else "zero"
-print(neg(0))
+# neg=lambda x:"positive" if x>0 else "negative" if x<0 else "zero"
+# print(neg(0))
+# numbers = [2, 4, 6, 8, 10]
+# hel=list(map(lambda x:x**2,numbers))
+# print(hel)
+# numbers = [2, 4, 6, 8, 10]
+# num=list(map(lambda x:x**2,numbers))
+# print(num)
+# numbers = [12, 7, 18, 5, 20, 9, 30, 11]
+# gr=list(filter(lambda x:x>10,numbers))
+# print(gr)
