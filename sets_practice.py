@@ -1888,5 +1888,7 @@ num = 5
 # print(check(1))
 # sq=lambda x:x**2
 # print(sq(8))
-s=lambda x,m:x*m
-print(s(12,5))
+# s=lambda x,m:x*m
+# print(s(12,5))
+neg=lambda x:"positive" if x>0 else "negative" if x<0 else "zero"
+print(neg(0))
