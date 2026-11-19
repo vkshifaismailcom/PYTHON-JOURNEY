@@ -1412,6 +1412,8 @@ num = 5
 #     if num in list1 and num not in comn:
 #         comn.append(num)
 # print(comn)
-fruits = ("apple", "banana", "apple", "orange", "apple", "banana")
-print(fruits.count("apple"))
-print(fruits.count("banana"))
+# fruits = ("apple", "banana", "apple", "orange", "apple", "banana")
+# print(fruits.count("apple"))
+# print(fruits.count("banana"))
+fruits = ("apple", "banana", "orange", "banana", "grape")
+print(fruits.index("banana"))
