@@ -2260,6 +2260,9 @@ num = 5
 # file=open("data.txt","r")
 # print(file.read())
 # file.close()
-numbers = [3, 5, 7, 9, 11]
-square=list(map(lambda x:x**2,numbers))
-print(square)
+# numbers = [3, 5, 7, 9, 11]
+# square=list(map(lambda x:x**2,numbers))
+# print(square)
+numbers = [12, 7, 18, 5, 20, 9, 30, 11]
+gr=list(filter(lambda x:x>10,numbers))
+print(gr)
