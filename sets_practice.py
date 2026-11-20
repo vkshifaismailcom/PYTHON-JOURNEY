@@ -1950,16 +1950,55 @@ num = 5
 #     print("sucess")
 # finally:
 #     print("you are here")
-def divi(a,b):
-    try:
-        result=a/b
+# def divi(a,b):
+#     try:
+#         result=a/b
         
-    except ZeroDivisionError:
-        print( "error ")
-    else:
-        print("hello no problem at all")
-        return result
+#     except ZeroDivisionError:
+#         print( "error ")
+#     else:
+#         print("hello no problem at all")
+#         return result
         
-    finally:
-        print("all phases passed succesfully")
-print(divi(2,1))
+#     finally:
+#         print("all phases passed succesfully")
+# print(divi(2,1))
+# class animal:
+#     name="leo"
+#     age=2
+# class lion(animal):
+#     school="caliph"
+# class dog(lion):
+#     classes=5
+# animal1=animal()
+# dog1=dog()
+# lion1=lion()
+# print(dog1.name)
+# print(dog1.age)
+# print(dog1.classes)
+# print(dog1.school)
+# print(lion1.name)
+class student:
+    @staticmethod
+    def add(a,b):
+        return a+b
+    school="caliph"
+    @classmethod
+    def schools(cls,newschool):
+        cls.school=newschool
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def display(self):
+        print("name:",self.name)
+        print("age:",self.age)
+        
+
+student1=student("shifa",12)
+student2=student("aslam","developer")
+student.schools("sivk hss")
+student1.display()
+student2.display()
+print(student1.school)
+print(student2.school)
+print(student.add(10,20))
