@@ -2471,13 +2471,13 @@ name="shifa"
 #     return a+b
 # result=num()
 # print(result)
-def helllo(x):
-    x=100
-a=500
-helllo(a)
-print(a)
-# def change(x):
-#     x.append(60)
-# a=[1,2,3]
-# change(a)
+# def helllo(x):
+#     x=100
+# a=500
+# helllo(a)
 # print(a)
+def change(x):
+    x.append(60)
+a=[1,2,3]
+change(a)
+print(a)
