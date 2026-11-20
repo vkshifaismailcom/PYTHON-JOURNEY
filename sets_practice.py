@@ -2517,16 +2517,19 @@ name="shifa"
 #     return hoy
 # hello1=hello()
 # hello1()
-name="shifa"
-def hello():
-    global name
-    name="ello"
-    collage="bridgeon"
-    def hoy():
-        nonlocal collage
-        collage="sivk"
-        clas=19
-        print(collage)
-    hoy()
-hello()    
-print(name)
+# name="shifa"
+# def hello():
+#     global name
+#     name="ello"
+#     collage="bridgeon"
+#     def hoy():
+#         nonlocal collage
+#         collage="sivk"
+#         clas=19
+#         print(collage)
+#     hoy()
+# hello()    
+# print(name)
+price=[100,200,300,400]
+square=list(map(lambda x:x**2,price))
+print(square)
