@@ -2530,6 +2530,9 @@ name="shifa"
 #     hoy()
 # hello()    
 # print(name)
+# price=[100,200,300,400]
+# square=list(map(lambda x:x**2,price))
+# print(square)
 price=[100,200,300,400]
-square=list(map(lambda x:x**2,price))
-print(square)
+sq=list(filter(lambda x:x>300,price))
+print(sq)
