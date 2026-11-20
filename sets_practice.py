@@ -2278,7 +2278,53 @@ num = 5
 # numbers = [5, 10, 15, 20, 25]
 # red=reduce(lambda x,y:x*y,numbers)
 # print(red)
-names = ["Shifa", "Amina", "Rahul", "Sara"]
-marks = [90, 85, 78, 95]
-hel=zip(names,marks)
-print(list(hel))
+# names = ["Shifa", "Amina", "Rahul", "Sara"]
+# marks = [90, 85, 78, 95]
+# hel=zip(names,marks)
+# print(list(hel))
+name="shifa"
+# def hoy():
+#     mom="rj"
+#     global name
+#     name="SHIFA ISMAIL V K"
+#     def hey():
+#         dad="iavk"
+#         print(mom)
+#         nonlocal mom
+#         mom="RAHEESA J" 
+        
+#     hey()
+# hoy()
+# print(name)
+# def i():
+#     mom="rj"
+#     def inner():
+        
+#         nonlocal mom
+#         mom="raheesa j"
+#         print(mom)
+#     inner()
+# i()
+# college_name="Jain University"
+# def student():
+#     print(college_name)
+# student()
+college = "Jain University"
+def university():
+    department = "Computer Science"
+    year = 2026
+    
+   
+    def student():
+        global college
+        nonlocal department
+        name = "Shifa"
+        print(name)
+        print(department)
+        print(len(name))
+        department="Artificial Intelligence"
+        college="IIT MADRAS"
+        
+    return student
+
+print(college)
