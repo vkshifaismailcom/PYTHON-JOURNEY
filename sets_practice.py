@@ -2501,13 +2501,32 @@ name="shifa"
 # nums1=nums(8)
 # nums2=nums(9)
 # print(nums1+nums2)
-def change(fun):
-    def wrapper():
-        result=fun()
-        return result.upper()
-    return wrapper
-@change
-def name():
-    return "dr shifa"
-print(name())
-    
+# def change(fun):
+#     def wrapper():
+#         result=fun()
+#         return result.upper()
+#     return wrapper
+# @change
+# def name():
+#     return "dr shifa"
+# print(name())
+# def hello():
+#     name="shifa"
+#     def hoy():
+#         print(name)
+#     return hoy
+# hello1=hello()
+# hello1()
+name="shifa"
+def hello():
+    global name
+    name="ello"
+    collage="bridgeon"
+    def hoy():
+        nonlocal collage
+        collage="sivk"
+        clas=19
+        print(collage)
+    hoy()
+hello()    
+print(name)
