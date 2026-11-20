@@ -2041,11 +2041,183 @@ num = 5
 # child1=child("sivk",18)
 # print(child1.name)
 # print(child1.age)
-class parent:
-    def say(self):
-        print("hello")
-class child(parent):
-    def say(self):
-        print("sivk")
-hild1=child()
-hild1.say()
+# class parent:
+#     def say(self):
+#         print("hello")
+# class child(parent):
+#     def say(self):
+#         print("sivk")
+# hild1=child()
+# hild1.say()
+# class animal:
+#     def sound(self):
+#         print("animal makes sound")
+# class dog(animal):
+#     def sound(self):
+#         print("dog barks")
+# dog1=dog()
+# dog1.sound()
+# class animal:
+#     def sound(self):
+#         print("animals makes sound")
+# class cat(animal):
+#     def sound(self):
+#         print("cat says meow")
+# cat1=cat()
+# cat1.sound()
+# class calculator:
+#     def adds(self,a,b,c=0):
+#         print(a+b+c)
+# cal1=calculator()
+# cal1.adds(1,2)
+# cal1.adds(1,2,3)  
+# class hello:
+#     def sum(self,*args):
+#         print(sum(args))
+# hello1=hello()
+# hello1.sum(1,2,3,4)
+# hello1.sum(1,2,3,4,5)
+# class animal:
+#     def sound(self,name,action=None):
+#         print(name)
+#         if action:
+#             print(action)
+# a=animal()
+# a.sound("dog")
+# a.sound("dog","barks")
+# class dog:
+#     def sound(self):
+#         print("bark")
+# class cat:
+#     def sound(self):
+#         print("meow")
+# def sounds(animal):
+#     animal.sound()
+# sounds(dog())
+# sounds(cat())  
+# from abc import ABC,abstractmethod
+# class animal:
+#     @abstractmethod
+#     def sound(self):
+#         pass
+# class cat(animal):
+#     def sound(self):
+#         print("i am a cat")
+# class dog(animal):
+#     def sound(self):
+#         print("i am a dog")
+# animal1=cat()
+# animal2=dog()
+# animal1.sound()
+# animal2.sound()
+# class parent:
+#     def sound(self):
+#         print("shu shu")
+# class cat(parent):
+#     def sound(self):
+#         print("meow")
+# cat1=cat()
+# cat1.sound()
+# class dog:
+#     def sound(self):
+#         print("shu shu")
+# class cat:
+#     def sound(self):
+#         print("meow")
+# def sounds(animal):
+#     animal.sound()
+# sounds(dog())
+# sounds(cat())
+# class parent:
+#     def add(self,name,age=None):
+#         print(name)
+#         if age:
+#             print(age)
+# parent1=parent()
+# parent1.add("sivk")
+# parent1.add("sivk",18)
+# from abc import ABC,abstractmethod
+# class animal(ABC):
+#     @abstractmethod
+#     def sound(self):
+#         pass
+# class cat(animal):
+#     def sound(self):
+#         print("meow")
+# class dog(animal):
+#     def sound(self):
+#         print("bow bow")
+# cat1=cat()
+# dog1=dog() 
+# cat1.sound()
+# dog1.sound()
+# class helll:
+#     def __init__(self):
+#         self.__name="sivk"
+#     def display(self):
+#         print(self.__name)
+# helll1=helll()
+# helll1.display()
+# class bankaccoount:
+#     def __init__(self):
+#         self.__balance=1000
+#     def get__balance(self):
+#         return self.__balance
+#     def set__balance(self,ammount):
+#         self.__balance=ammount
+# bank1=bankaccoount()
+# bank1.set__balance(1500)
+# print(bank1.get__balance())
+# class Numbers:
+#     def __init__(self):
+#         self.num = 1
+
+#     def __iter__(self):
+#         return self
+
+#     def __next__(self):
+#         if self.num<=50:
+#             value = self.num
+#             self.num += 1
+#             return value
+#         else:
+#             raise StopIteration
+
+# n = Numbers()
+
+# # print(next(n))
+# # print(next(n))
+# # print(next(n))
+# for i in n:
+#     print(i)
+# class number:
+#     def __init__(self):
+#         self.num=1
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.num<=3:
+#             value=self.num
+#             self.num+=1
+#             return value
+#         else:
+#             raise StopIteration
+# n=number()
+# for i in n:
+#     print(i)
+class number:
+    def __init__(self):
+        self.num=1
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.num<=5:
+            value=self.num
+            self.num+=1
+            return value
+        else:
+            raise StopIteration
+n=number()
+
+for i in n:
+    print(i)
