@@ -2533,6 +2533,10 @@ name="shifa"
 # price=[100,200,300,400]
 # square=list(map(lambda x:x**2,price))
 # print(square)
+# price=[100,200,300,400]
+# sq=list(filter(lambda x:x>300,price))
+# print(sq)
+from functools import reduce
 price=[100,200,300,400]
-sq=list(filter(lambda x:x>300,price))
+sq=reduce(lambda x,y:x+y,price)
 print(sq)
