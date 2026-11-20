@@ -2408,9 +2408,76 @@ name="shifa"
 # a=50
 # change(a)
 # print(a)
-def change(x):
-    print(x,"=", 100)
+# def change(x):
+#     print(x,"=", 100)
 
-a = 50
-change(a)
+# a = 50
+# change(a)
+# print(a)
+# def add(a,b):
+#     return a+b
+# result=add(5,10)
+# print(result)
+# class hello:
+#     def greet(self):
+#         print("goodmorning")
+# def new(self):
+#     print("goo evinig")
+# hello.greet=new
+# class hello:
+#     def greet(self):
+#         print("hello")
+# def greets(self):
+#     print("hello shifa")
+# hello.greet=greets
+# hello1=hello()
+# hello1.greet()
+
+# def hey(func):
+#     def wrapper():
+#         result=func()
+#         return result.upper()
+#     return wrapper
+# @hey
+# def great():
+#     return "hello shifa"
+# print(great())
+
+# def funct(fun):
+#     def wrapper():
+#         print("hello")
+#         fun()
+#         print("byee")
+#     return wrapper
+
+# def greet():
+#     print("Hello Shifa!")
+# result=funct(greet)
+# result()
+# class monkey:
+#     def hello(self):
+#         print("hello monkey")
+# def heey(self):
+#     print("hello donkkey")
+# monkey.hello=heey
+# mon=monkey()
+# # mon.hello()
+# def name(name,age,**skills):
+#     print(f"hello monkey {name} you are {age} you know {skills} all of these!!!!!")
+# name("aslam",28,skill="drawing",code="coding",bad="talking")
+# def num():
+#     a=70
+#     b=9
+#     return a+b
+# result=num()
+# print(result)
+def helllo(x):
+    x=100
+a=500
+helllo(a)
 print(a)
+# def change(x):
+#     x.append(60)
+# a=[1,2,3]
+# change(a)
+# print(a)
