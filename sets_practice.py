@@ -2233,30 +2233,33 @@ num = 5
 # numbers=(x for x in range(1,6))
 # for i in numbers:
 #     print(i)
-file=open("data.txt","w")
-file.write("sivk")
-file.close
-file=open("data.txt","a")
-file.write("\npp")
-file.close
-file=open("data.txt","r")
-print(file.read())
-file.close()
-file=open("data.txt","w")
-file.write("sivk")
-file.close
-file=open("data.txt","a")
-file.write("\npp")
-file.close
-file=open("data.txt","r")
-print(file.read())
-file.close()
-file=open("data.txt","w")
-file.write("sivk")
-file.close
-file=open("data.txt","a")
-file.write("\npp")
-file.close
-file=open("data.txt","r")
-print(file.read())
-file.close()
+# file=open("data.txt","w")
+# file.write("sivk")
+# file.close
+# file=open("data.txt","a")
+# file.write("\npp")
+# file.close
+# file=open("data.txt","r")
+# print(file.read())
+# file.close()
+# file=open("data.txt","w")
+# file.write("sivk")
+# file.close
+# file=open("data.txt","a")
+# file.write("\npp")
+# file.close
+# file=open("data.txt","r")
+# print(file.read())
+# file.close()
+# file=open("data.txt","w")
+# file.write("sivk")
+# file.close
+# file=open("data.txt","a")
+# file.write("\npp")
+# file.close
+# file=open("data.txt","r")
+# print(file.read())
+# file.close()
+numbers = [3, 5, 7, 9, 11]
+square=list(map(lambda x:x**2,numbers))
+print(square)
