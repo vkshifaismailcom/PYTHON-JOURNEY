@@ -2266,11 +2266,15 @@ num = 5
 # numbers = [12, 7, 18, 5, 20, 9, 30, 11]
 # gr=list(filter(lambda x:x>10,numbers))
 # print(gr)
-students = [
-    ("Shifa", 85),
-    ("Amina", 95),
-    ("Rahul", 70),
-    ("Sara", 90)
-]
-sor=sorted(students,key=lambda x:x[1])
-print(sor)
+# students = [
+#     ("Shifa", 85),
+#     ("Amina", 95),
+#     ("Rahul", 70),
+#     ("Sara", 90)
+# ]
+# sor=sorted(students,key=lambda x:x[1])
+# print(sor)
+from functools import reduce
+numbers = [5, 10, 15, 20, 25]
+red=reduce(lambda x,y:x*y,numbers)
+print(red)
