@@ -2536,7 +2536,16 @@ name="shifa"
 # price=[100,200,300,400]
 # sq=list(filter(lambda x:x>300,price))
 # print(sq)
-from functools import reduce
-price=[100,200,300,400]
-sq=reduce(lambda x,y:x+y,price)
+# from functools import reduce
+# price=[100,200,300,400]
+# sq=reduce(lambda x,y:x+y,price)
+# print(sq)
+students = [
+    ("Shifa", 85),
+    ("Amina", 95),
+    ("Rahul", 70),
+    ("Sara", 90),
+    ("Zara", 80)
+]
+sq=dict(sorted(students,key=lambda x:x[1]))
 print(sq)
