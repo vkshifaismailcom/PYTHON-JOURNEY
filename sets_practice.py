@@ -2205,19 +2205,58 @@ num = 5
 # n=number()
 # for i in n:
 #     print(i)
-class number:
-    def __init__(self):
-        self.num=1
-    def __iter__(self):
-        return self
-    def __next__(self):
-        if self.num<=5:
-            value=self.num
-            self.num+=1
-            return value
-        else:
-            raise StopIteration
-n=number()
+# class number:
+#     def __init__(self):
+#         self.num=1
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.num<=5:
+#             value=self.num
+#             self.num+=1
+#             return value
+#         else:
+#             raise StopIteration
+# n=number()
 
-for i in n:
-    print(i)
+# for i in n:
+#     print(i)
+# def numbers():
+#     yield 1
+#     yield 2
+#     yield 3
+# num=numbers()
+# print(next(num))
+# print(next(num))
+# print(next(num))
+# print(next(num))
+# numbers=(x for x in range(1,6))
+# for i in numbers:
+#     print(i)
+file=open("data.txt","w")
+file.write("sivk")
+file.close
+file=open("data.txt","a")
+file.write("\npp")
+file.close
+file=open("data.txt","r")
+print(file.read())
+file.close()
+file=open("data.txt","w")
+file.write("sivk")
+file.close
+file=open("data.txt","a")
+file.write("\npp")
+file.close
+file=open("data.txt","r")
+print(file.read())
+file.close()
+file=open("data.txt","w")
+file.write("sivk")
+file.close
+file=open("data.txt","a")
+file.write("\npp")
+file.close
+file=open("data.txt","r")
+print(file.read())
+file.close()
