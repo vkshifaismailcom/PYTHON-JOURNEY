@@ -2476,8 +2476,20 @@ name="shifa"
 # a=500
 # helllo(a)
 # print(a)
-def change(x):
-    x.append(60)
-a=[1,2,3]
-change(a)
-print(a)
+# class school():
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#             return self.name
+# school1=school("sivk")
+# print(school1)
+
+#MAGIC METHODE
+
+class school:
+    def __init__(self,name):
+        self.name=name
+    def __str__(self):
+        return self.name
+school1=school("sivk")
+print(school1)
