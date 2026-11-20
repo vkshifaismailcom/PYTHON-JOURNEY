@@ -2309,22 +2309,108 @@ name="shifa"
 # def student():
 #     print(college_name)
 # student()
-college = "Jain University"
-def university():
-    department = "Computer Science"
-    year = 2026
+# college = "Jain University"
+# def university():
+#     department = "Computer Science"
+#     year = 2026
     
    
-    def student():
-        global college
-        nonlocal department
-        name = "Shifa"
-        print(name)
-        print(department)
-        print(len(name))
-        department="Artificial Intelligence"
-        college="IIT MADRAS"
+#     def student():
+#         global college
+#         nonlocal department
+#         name = "Shifa"
+#         print(name)
+#         print(department)
+#         print(len(name))
+#         department="Artificial Intelligence"
+#         college="IIT MADRAS"
         
-    return student
+#     return student
 
-print(college)
+# print(college)
+# def university():
+#     collage="jain"
+#     def student():
+#         print(collage)
+#     return student
+# col=university()
+# col()
+
+
+# def university():
+#     collage="jain "
+#     def student():
+#         print(collage)
+#     return student
+# hel=university()
+# hel()
+# def funct(fun):
+#     def wrapper():
+#         print("hello")
+#         fun()
+#         print("byee")
+#     return wrapper
+
+# def greet():
+#     print("Hello Shifa!")
+# result=funct(greet)
+# result()
+# def funct(fun):
+#     def wrapper(*a,**b):
+#         print("goodmorning")
+#         fun(*a,**b)
+#         print("goodbye")
+#     return wrapper
+# @funct
+# def greet(name):
+#     print("name :",name)
+# greet("sivk")
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+#     def __str__(self):
+#         return f"student: {self.name}"
+
+# student1 = Student("Shifa")
+
+# print(student1)
+# class student:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return f"name:{self.name}"
+# student1=student("shifa")
+# print(student1)14
+# class product:
+#     def __init__(self,price):
+#         self.price=price
+#     def __add__(self,other):
+#         return self.price+other.price
+# product1=product(100)
+# product2=product(200)
+# print(product1+product2)
+# class alph:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return self.name
+# product1=alph("shifa")
+# print(product1)
+# def change(x):
+#     x = 20
+
+# a = 10
+# change(a)
+
+# print(a)
+# def change(x):
+#     x=10
+# a=50
+# change(a)
+# print(a)
+def change(x):
+    print(x,"=", 100)
+
+a = 50
+change(a)
+print(a)
