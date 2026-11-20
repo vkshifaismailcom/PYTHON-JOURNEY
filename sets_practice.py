@@ -1978,27 +1978,74 @@ num = 5
 # print(dog1.classes)
 # print(dog1.school)
 # print(lion1.name)
-class student:
-    @staticmethod
-    def add(a,b):
-        return a+b
-    school="caliph"
-    @classmethod
-    def schools(cls,newschool):
-        cls.school=newschool
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-    def display(self):
-        print("name:",self.name)
-        print("age:",self.age)
+# class student:
+#     @staticmethod
+#     def add(a,b):
+#         return a+b
+#     school="caliph"
+#     @classmethod
+#     def schools(cls,newschool):
+#         cls.school=newschool
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def display(self):
+#         print("name:",self.name)
+#         print("age:",self.age)
         
 
-student1=student("shifa",12)
-student2=student("aslam","developer")
-student.schools("sivk hss")
-student1.display()
-student2.display()
-print(student1.school)
-print(student2.school)
-print(student.add(10,20))
+# student1=student("shifa",12)
+# student2=student("aslam","developer")
+# student.schools("sivk hss")
+# student1.display()
+# student2.display()
+# print(student1.school)
+# print(student2.school)
+# print(student.add(10,20)) 
+# class help:
+#     def __init__(self,name):
+#         self.name=name
+#     def display(self):
+#         print("name: ",self.name)
+# class mes(help):
+#     def __init__(self,name,age):
+#         super().__init__(name)
+#         self.age=age
+#     def show(self):
+#         super().display()
+#         print("age",self.age)
+# mes1=mes("sivk",18)
+# mes1.show()
+# class parent:
+#     def __init__(self,name):
+#         self.name=name
+#     def show(self):
+#         print("name : ",self.name)
+# class child(parent):
+#     def __init__(self,name,age):
+#         super(). __init__(name)
+#         self.age=age
+#     def display(self):
+#         super().show()
+#         print("age:",self.age)
+# child1=child("sivk",20)
+# child1.display()
+
+# class parent:
+#     def __init__(self,name):
+#         self.name=name
+# class child(parent):
+#     def __init__(self,name,age):
+#         super().__init__(name)
+#         self.age=age
+# child1=child("sivk",18)
+# print(child1.name)
+# print(child1.age)
+class parent:
+    def say(self):
+        print("hello")
+class child(parent):
+    def say(self):
+        print("sivk")
+hild1=child()
+hild1.say()
