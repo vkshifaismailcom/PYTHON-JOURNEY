@@ -2274,7 +2274,11 @@ num = 5
 # ]
 # sor=sorted(students,key=lambda x:x[1])
 # print(sor)
-from functools import reduce
-numbers = [5, 10, 15, 20, 25]
-red=reduce(lambda x,y:x*y,numbers)
-print(red)
+# from functools import reduce
+# numbers = [5, 10, 15, 20, 25]
+# red=reduce(lambda x,y:x*y,numbers)
+# print(red)
+names = ["Shifa", "Amina", "Rahul", "Sara"]
+marks = [90, 85, 78, 95]
+hel=zip(names,marks)
+print(list(hel))
