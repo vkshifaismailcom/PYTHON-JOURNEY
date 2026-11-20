@@ -2486,10 +2486,20 @@ name="shifa"
 
 #MAGIC METHODE
 
-class school:
-    def __init__(self,name):
-        self.name=name
-    def __str__(self):
-        return self.name
-school1=school("sivk")
-print(school1)
+# class school:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return self.name
+# school1=school("sivk")
+# print(school1)
+class nums:
+    def __init__(self,num):
+      self.num=num
+    def __add__(self,other):
+       return self.num+other.num
+nums1=nums(8)
+nums2=nums(9)
+print(nums1+nums2)
+
+    
