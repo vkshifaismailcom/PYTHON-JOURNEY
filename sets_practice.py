@@ -2493,13 +2493,21 @@ name="shifa"
 #         return self.name
 # school1=school("sivk")
 # print(school1)
-class nums:
-    def __init__(self,num):
-      self.num=num
-    def __add__(self,other):
-       return self.num+other.num
-nums1=nums(8)
-nums2=nums(9)
-print(nums1+nums2)
-
+# class nums:
+#     def __init__(self,num):
+#       self.num=num
+#     def __add__(self,other):
+#        return self.num+other.num
+# nums1=nums(8)
+# nums2=nums(9)
+# print(nums1+nums2)
+def change(fun):
+    def wrapper():
+        result=fun()
+        return result.upper()
+    return wrapper
+@change
+def name():
+    return "dr shifa"
+print(name())
     
