@@ -2540,12 +2540,295 @@ name="shifa"
 # price=[100,200,300,400]
 # sq=reduce(lambda x,y:x+y,price)
 # print(sq)
-students = [
-    ("Shifa", 85),
-    ("Amina", 95),
-    ("Rahul", 70),
-    ("Sara", 90),
-    ("Zara", 80)
-]
-sq=dict(sorted(students,key=lambda x:x[1]))
-print(sq)
+# students = [
+#     ("Shifa", 85),
+#     ("Amina", 95),
+#     ("Rahul", 70),
+#     ("Sara", 90),
+#     ("Zara", 80)
+# ]
+# sq=dict(sorted(students,key=lambda x:x[1]))
+# print(sq)
+# class hell:
+#     def __init__(self):
+#         self.num=1
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.num<=6:
+#             value=self.num
+#             self.num+=1
+#             return value
+#         else:
+#             raise StopIteration
+# hell1=hell()
+# for i in hell1:
+#     print(i)
+# def fun():
+#     yield 10
+#     yield 20
+#     yield 30
+# result=fun()
+# print(next(result))
+# print(next(result))
+# print(next(result))
+# result=(x for x in range(1,6))
+# print(next(result))
+# for i in result:
+#     print(i)
+# class help:
+#     def __init__(self):
+#         self.__name=1000
+#     def __get__(self):
+#         self..
+# help1=help()
+# help1.help()
+# from abc import ABC,abstractmethod
+# class hello(ABC):
+#     def sound(self):
+#         pass
+# class cat(hello):
+#     def sound(self):
+#         print("meow")
+# class dog(hello):
+#     def sound(self):
+#         print("bow")
+# hello1=cat()
+# hello2=dog()
+# hello1.sound()
+# hello2.sound()
+# class parent():
+#     def sound(self):
+#         print("dd")
+# class son():
+#     def sound(self):
+#         print("meow")
+# def hello(animal):
+#     animal.sound()
+# s=son()
+# p=parent()
+# hello(s)
+# hello(p)
+# class calculator:
+#     def add(self,a,b,c=0):
+#         print(a+b+c)
+# cal1=calculator()
+# cal1.add(5,6)
+# cal1.add(7,8,9)
+# text = "programming"
+# freeuency={x:text.count(x) for x in set(text) if text.count(x)>1}
+# print(freeuency)
+# freequency={}
+# for n in text:
+#     if n in freequency:
+#         freequency[n]+=1
+#     else:
+#         freequency[n]=1
+# print(freequency)
+# numbers = [10, 20, 30, 20, 40, 50, 10, 60, 30, 70, 80, 80]
+# unique=[x for x in numbers if numbers.count(x)==1]
+# # for i in numbers:
+# #     if i not in unique:
+# #         unique.append(i)
+# print(unique)
+
+# class hello:
+#     def name(self):
+#         print("shifa")
+# def names(self):
+#     print("sivk")
+# hello.name=names
+# hello1=hello()
+# hello1.name()
+# def num(x):
+#     x=100
+# a=50
+# num(a)
+# print(a)
+# def num(x):
+#     x.append(40)
+# y=[1,2,3,4]
+# num(y)
+# print(y)
+# def num(x):
+#     x.append(40)
+# y=[1,2,3,4]
+# num(y)
+# print(y)import cop
+# import copy
+# og=[[1,2],4,5]
+# hel=copy.deepcopy(og)
+# hel[0][0]=5
+# print(og)
+# print(hel)
+# class sivk:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return self.name
+# sivk1=sivk("sivk")
+# print(sivk1)
+# class sivk:
+#     def __init__(self,num):
+#         self.num=num
+#     def __sub__(self,another):
+#         return self.num-another.num
+# sivk1=sivk(7)
+# sivk2=sivk(8)
+# print(sivk1-sivk2)
+# def fun(func):
+#     def wrapper():
+#         result=func()
+#         return result.upper()
+#     return wrapper
+# @fun
+# def hello():
+#     return "hello sivk"
+# prints=hello()
+# print(prints)
+# def shi(fun):
+#     def wrapper():
+#         print("hello gd mrng")
+#         fun()
+#         print("bye gdnight")
+#     return wrapper
+# @shi
+# def sivk():
+#     print("helllo")
+# sivk()
+# def hell():
+#     name="sivk"
+#     def hai():
+#         print(name)
+#     return hai
+# result=hell()
+# result()
+# def hello():
+#     name="sivk"
+#     def heyy():
+#         print(name)
+#     return heyy
+# result=hello()
+# result()
+# def ello():
+#     name="shifa"
+#     def hello():
+#         print(name)
+#     return hello
+# result=ello()
+# result()
+# class hell:
+#     def __init__(self):
+#         self.num=1
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.num<=6:
+#             value=self.num
+#             self.num+=1
+#             return value
+#         else:
+#             raise StopIteration
+        
+# hell1=hell()
+# # print(next(hell1))
+# # print(next(hell1))
+# for i in hell1:
+#     print(i)
+# def num():
+#     yield 10
+#     yield 20
+#     yield 30
+# result=num()
+# # print(next(result))
+# # print(next(result))
+# for i in result:
+#     print(i)
+# hel=(x for x in range(1,9) )
+# for i in hel:
+#     print(i)
+# class hell:
+#     def __init__(self):
+#         self.__name="sivk"
+#     def g_get(self):
+#         return self.__name
+#     def s_set(self,another):
+#         self.__name=another
+
+
+    
+# hell1=hell()
+# hell1.s_set(1000)
+# result=hell1.g_get()
+# print(result)
+# from abc import ABC,abstractmethod
+# class parent(ABC):
+#     name="shifa"
+#     @abstractmethod
+#     def run(self):
+#         pass
+# class child(parent):
+#     def run(self):
+#         print("hello child")
+# child1=child()
+# child1.run()
+# class parent():
+#     def run(self):
+#         print("hey ")
+# class child(parent):
+#     def run(self):
+#         print("hoyy")
+# child1=child()
+# child1.run()
+# class parent():
+#     def hello(self):
+#         print("hey")
+# class child():
+#     def hello(self):
+#         print("hoy")
+# def sounds(animal):
+#     animal.hello()
+# p=parent()
+# c=child()
+# sounds(p)
+# sounds(c)
+# class parent:
+#     def sound(self,a,b=None):
+#         print(a)
+#         if b:
+#             print(b)
+# parent1=parent()
+# parent1.sound("name",18)
+# # parent1.sound(1,2,4)
+# # parent1.sound(1,4,6,7,9,)
+# class hello:
+#     clasess="caliph"
+#     @classmethod
+#     def new(cls,news):
+#         cls.clasess=news
+# hello1=hello()
+# hello.new("CALIPH LIFE SCHOOL")
+# print(hello1.clasess)
+# class hello:
+#     school="caliph"
+#     @classmethod
+#     def new(cls,news):
+#         cls.school=news
+# hello1=hello()
+# hello.new("CALIPH LLIFE SCHOOL")
+# print(hello1.school)
+# class hello:
+#     @staticmethod
+#     def hey():
+#         print("hello")
+# hello.hey()
+def divide(a,b):
+    try:
+        print(a/b)
+    except ZeroDivisionError:
+        print("no problem")
+    else:
+        print("you are here")
+    finally:
+        print("done")
+divide(5,0)
