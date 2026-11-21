@@ -2822,13 +2822,15 @@ name="shifa"
 #     def hey():
 #         print("hello")
 # hello.hey()
-def divide(a,b):
-    try:
-        print(a/b)
-    except ZeroDivisionError:
-        print("no problem")
-    else:
-        print("you are here")
-    finally:
-        print("done")
-divide(5,0)
+# def divide(a,b):
+#     try:
+#         print(a/b)
+#     except ZeroDivisionError:
+#         print("no problem")
+#     else:
+#         print("you are here")
+#     finally:
+#         print("done")
+# divide(5,0)
+ssum=lambda *a:sum(a)
+print(ssum(1,3,4,5,6,8,9))
