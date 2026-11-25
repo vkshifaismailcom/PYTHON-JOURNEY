@@ -2953,10 +2953,17 @@ name="shifa"
 #     return numbers
 # numbers = [5, 15, 25, 35, 45, 55]
 # print(delete(numbers,3))
-def delete(numbers,index):
-    for i in range(index,len(numbers)-1):
-        numbers[i]=numbers[i+1]
-    numbers.pop()
-    return numbers
-numbers = [11, 22, 33, 44, 55, 66, 77, 88]
-print(delete(numbers,5))
+# def delete(numbers,index):
+#     for i in range(index,len(numbers)-1):
+#         numbers[i]=numbers[i+1]
+#     numbers.pop()
+#     return numbers
+# numbers = [11, 22, 33, 44, 55, 66, 77, 88]
+# print(delete(numbers,5))
+def search(numbers,target):
+    for i in range(len(numbers)):
+        if numbers[i]==target:
+            return i 
+        return -1
+numbers = [15, 30, 45, 60, 75, 90, 105]
+print(search(numbers,90))
