@@ -2938,11 +2938,18 @@ name="shifa"
 # numbers = [12, 25, 38, 46, 59, 72]
 # insert(numbers,2,51)
 
-def insert(numbers,index,value):
-    numbers.append(None)
-    for i in range(len(numbers)-1,index,-1):
-        numbers[i]=numbers[i-1]
-    numbers[index]=value
-    print(numbers)
-numbers = [8, 16, 24, 32, 40, 48]
-insert(numbers,2,20)
+# def insert(numbers,index,value):
+#     numbers.append(None)
+#     for i in range(len(numbers)-1,index,-1):
+#         numbers[i]=numbers[i-1]
+#     numbers[index]=value
+#     print(numbers)
+# numbers = [8, 16, 24, 32, 40, 48]
+# insert(numbers,2,20)
+def delete(numbers,index):
+    for i in range(index,len(numbers)-1):
+        numbers[i]=numbers[i+1]
+    numbers.pop()
+    return numbers
+numbers = [5, 15, 25, 35, 45, 55]
+print(delete(numbers,3))
