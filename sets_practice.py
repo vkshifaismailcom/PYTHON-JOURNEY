@@ -2983,6 +2983,16 @@ name="shifa"
 # numbers = [12, 24, 36, 48, 60, 72]
 
 # print(reverse_list(numbers))
+# def revearse(numbers):
+#     right=len(numbers)-1
+#     left=0
+#     while left<right:
+#         numbers[left],numbers[right]=numbers[right],numbers[left]
+#         left+=1
+#         right-=1
+#     return  numbers
+# numbers = [5, 15, 25, 35, 45, 55, 65]
+# print(revearse(numbers))
 def revearse(numbers):
     right=len(numbers)-1
     left=0
@@ -2991,5 +3001,5 @@ def revearse(numbers):
         left+=1
         right-=1
     return  numbers
-numbers = [5, 15, 25, 35, 45, 55, 65]
+numbers = [3, 8, 12, 17, 21, 26, 30, 35]
 print(revearse(numbers))
