@@ -2967,19 +2967,29 @@ name="shifa"
 #     return -1
 # numbers = [15, 30, 45, 60, 75, 90, 105]
 # print(search(numbers,90))
-def reverse_list(numbers):
-    left = 0
-    right = len(numbers) - 1
+# def reverse_list(numbers):
+#     left = 0
+#     right = len(numbers) - 1
 
-    while left < right:
-        numbers[left], numbers[right] = numbers[right], numbers[left]
+#     while left < right:
+#         numbers[left], numbers[right] = numbers[right], numbers[left]
 
-        left += 1
-        right -= 1
+#         left += 1
+#         right -= 1
 
-    return numbers
+#     return numbers
 
 
-numbers = [12, 24, 36, 48, 60, 72]
+# numbers = [12, 24, 36, 48, 60, 72]
 
-print(reverse_list(numbers))
+# print(reverse_list(numbers))
+def revearse(numbers):
+    right=len(numbers)-1
+    left=0
+    while left<right:
+        numbers[left],numbers[right]=numbers[right],numbers[left]
+        left+=1
+        right-=1
+    return  numbers
+numbers = [5, 15, 25, 35, 45, 55, 65]
+print(revearse(numbers))
